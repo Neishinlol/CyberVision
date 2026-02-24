@@ -8,6 +8,8 @@
 
 ---
 
+Pour les français : https://github.com/Neishinlol/CyberVision-FR
+
 ## 📖 About
 CyberVision is a **massive Cyberpunk 2077 modlist** with over **1500 mods**, designed for immersive gameplay and visual fidelity.  
 Focuses on **roleplay, realism, and quality of life**, supporting **English and French** profiles.  
