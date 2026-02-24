@@ -4,6 +4,15 @@ All notable changes to this project are documented in this file.
 For quick summaries, see Discord and Nexus.  
 This file serves as the main and complete source of truth.
 
+## [1.1.1] – Graphic and Visual Update
+
+### ⚙️  Rework of the ENV and Reshade
+- Exposure value was kinda broken in Path Tracing for whatever reason, i reworked the CyberVisionENV.
+- Visual more stunning and less exposure change.
+- Before updating, make sure to back up your UserSettings.json to avoid rebinding everything.
+- Path: CyberVision → Profiles → Selected profile → UserSettings.json
+- Save-friendly.
+
 ---
 
 ## [1.1.0] – Major Optimization Update
