@@ -13,7 +13,7 @@
       "Steam",
       "GOG",
       "Combat Overhaul",
-      "Total Overhaul",
+      "Total Overhaul"
     ],
     "nsfw": false,
     "utility_list": false,
@@ -37,6 +37,6 @@
       "SizeOfInstalledFiles": 70743199307,
       "TotalSize": 142053695447
     },
-    "version": "1.2.0",
+    "version": "1.2.0"
   }
 ]
