@@ -1,0 +1,43 @@
+[
+  {
+    "title": "CyberVision",
+    "description": "CyberVision is a massive Cyberpunk 2077 modlist with over 1500 mods, designed for immersive gameplay and visual fidelity. Focuses on roleplay, realism, and quality of life, supporting English and French profiles. Works best on Very Hard difficulty.
+    For detailed mod configuration, setup instructions, and answers to any questions, please visit our CyberVision Discord section.",
+    "author": "Neishin",
+    "maintainers": [
+      "https://github.com/Neishinlol/CyberVision"
+      "https://discord.com/invite/WSFgf5S7wS"
+    ],
+    "game": "cyberpunk2077",
+    "official": true,
+    "tags": [
+      "Steam",
+      "GOG",
+      "Combat Overhaul",
+      "Total Overhaul",
+    ],
+    "nsfw": false,
+    "utility_list": false,
+    "image_contains_title": true,
+    "DisplayVersionOnlyInInstallerView": false,
+    "force_down": false,
+    "links": {
+      "image": "https://i.ibb.co/99DKNCwt/Cybervision.jpg",
+      "readme": "https://github.com/Neishinlol/CyberVision/blob/main/README.md",
+      "download": "https://authored-files.wabbajack.org/CyberVision.wabbajack_6ac30ad8-cd69-40eb-b0a4-7d98b5b0a164",
+      "machineURL": "NeishinCyberVision",
+      "discordURL": "https://discord.com/invite/WSFgf5S7wS",
+      "websiteURL": "https://www.nexusmods.com/cyberpunk2077/mods/27691"
+    },
+    "download_metadata": {
+      "Hash": "PFuXqRIaUw4=",
+      "Size": 14641037,
+      "NumberOfArchives": 1652,
+      "SizeOfArchives": 71310496140,
+      "NumberOfInstalledFiles": 14334,
+      "SizeOfInstalledFiles": 70743199307,
+      "TotalSize": 142053695447
+    },
+    "version": "1.2.0",
+  }
+]
