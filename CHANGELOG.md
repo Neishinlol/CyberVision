@@ -4,6 +4,90 @@ All notable changes to this project are documented in this file.
 For quick summaries, see Discord and Nexus.  
 This file serves as the main and complete source of truth.
 
+
+## [1.2.1] – Update & Optimization
+
+### General Optimizations
+
+- Added a **CPU optimization preset system**, allowing users to select the preset that best fits their hardware configuration:
+  - CPU fix **POTATO** – 4–8 CPU threads, 4–6 GB VRAM, SSD
+  - CPU fix **Lite** – 6–12 CPU threads, 8 GB VRAM, SSD
+  - CPU fix **Standard** – 8–16 CPU threads, 12–16 GB VRAM, NVMe SSD
+  - CPU fix **EXTREME** – 16+ CPU threads, 16 GB+ VRAM, fast NVMe SSD
+
+- Added **new mods**, updated several existing ones, and applied multiple tweaks and fixes:
+  - Swapped some **CET mods to Redscript versions**
+  - Added **new mods**
+  - Added **new MO2 separators** and cleaned profiles
+  - Introduced **new optimization choices**
+  - Added **camera-related settings**
+
+- General performance and stability improvements across all profiles.
+
+### Important
+- Before updating, **back up your `UserSettings.json`** to avoid rebinding controls.  
+  - Path: `CyberVision → Profiles → Selected profile → UserSettings.json`
+
+- ⚠️ The game **may crash once on the first load** after updating due to new changes.  
+  - If it happens, it should **only occur once**.
+
+- ✅ **Save-friendly** update.  
+  - You can safely continue your current playthrough.
+
+---
+
+### Mod Updates & New Mods
+
+#### Added
+- Orange Double Calibre
+- MeleeAnimation Randomizer
+- Engine Oil Extreme
+- Engine Oil Standard
+- Engine Oil Lite
+- Engine Oil Potato
+
+#### Updated
+- Milky Glass Mod
+- Faction Evolved
+- Claim Vehicle – Modded Cars
+- Reinforcement Gang VS Gang Addon
+- Sabbath Virtual Atelier (Legendary)
+- Axellysse Virtual Atelier
+- Unaware Execution
+- Shift
+- Hyst Atelier Store – Virtual Atelier
+- All 12 MO2 profiles (settings and load order)
+
+---
+
+### Swaps
+- CPU Optimization Fix → replaced with **4 CPU profiles from Engine Oil**
+- Underwear Removal (CET) → **Underwear Removal (Redscript)**
+
+---
+
+### Removed (Performance & Stability)
+- CET NPC Body Tweaks
+- Underwear Removal (CET)
+- Immersive Third-Person Vehicle Camera – TPP Cam Toolkit
+
+---
+
+### Tweaks & Presets
+
+- Shift camera adjustments:
+  - All cars reworked + custom presets
+  - All bikes reworked + custom presets
+  - Handguns, knives, katanas, shotguns, and assault rifles reworked
+
+- WeatherAutoSchedule probability tweaked:
+  - More varied weather, less constant sunny conditions
+
+- All profiles load order updated
+
+
+---
+
 ## [1.2.0] – Gameplay & Optimization Update
 
 ### General Optimizations
