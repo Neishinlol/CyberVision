@@ -1,6 +1,5 @@
 [
   {
-    "$type": "ModListMetadata, Wabbajack.Lib",
     "title": "CyberVision",
     "description": "CyberVision is a massive Cyberpunk 2077 modlist with over 1500 mods, designed for immersive gameplay and visual fidelity. Focuses on roleplay, realism, and quality of life, supporting English and French profiles. Works best on Very Hard difficulty.",
     "author": "Neishin",
@@ -23,20 +22,23 @@
     "links": {
       "image": "https://i.ibb.co/99DKNCwt/Cybervision.jpg",
       "readme": "https://github.com/Neishinlol/CyberVision/blob/main/README.md",
-      "download": "https://authored-files.wabbajack.org/CyberVision.wabbajack_6ac30ad8-cd69-40eb-b0a4-7d98b5b0a164",
+      "download": "https://authored-files.wabbajack.org/CyberVision.wabbajack_0e0dbe07-289e-443f-8ed2-ab687cea0e05",
       "machineURL": "NeishinCyberVision",
       "discordURL": "https://discord.com/invite/WSFgf5S7wS",
       "websiteURL": "https://www.nexusmods.com/cyberpunk2077/mods/27691"
     },
     "download_metadata": {
-      "Hash": "PFuXqRIaUw4=",
-      "Size": 14641037,
-      "NumberOfArchives": 1652,
-      "SizeOfArchives": 71310496140,
-      "NumberOfInstalledFiles": 14334,
-      "SizeOfInstalledFiles": 70743199307,
-      "TotalSize": 142053695447
+      "Hash": "LXZILWb8UFk=",
+      "Size": 7661929,
+      "NumberOfArchives": 1655,
+      "SizeOfArchives": 71303950108,
+      "NumberOfInstalledFiles": 13888,
+      "SizeOfInstalledFiles": 70750714418,
+      "TotalSize": 142054664526
     },
-    "version": "1.2.0"
+    "version": "1.2.1",
+    "dateCreated": "1970-01-01T00:00:00Z",
+    "dateUpdated": "2026-02-27T22:56:19.8716071Z",
+    "repositoryName": ""
   }
 ]
