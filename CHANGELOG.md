@@ -5,6 +5,99 @@ For quick summaries, see Discord and Nexus.
 This file serves as the main and complete source of truth.
 
 
+## [1.3.0 RC] – RC BETA TEST Update
+
+### General Changes
+
+New mods added — testing required to verify stability:
+- New NCPD / MaxTac system
+- New Combat AI behavior system
+- New Detection AI behavior system
+- New Traffic AI system
+- StealthRunner Expanded is back
+- Several new location mods
+- New car / bike mods
+- New HUD mods
+
+Updates to existing mods, plus various tweaks and fixes:
+- First-person camera tweaks with Shift
+- First-person car camera tweaks with Shift
+- First-person bike camera tweaks with Shift
+- Tweaks to some weather probabilities
+- Various mod updates
+
+### Important
+
+Before updating, make sure to back up your `UserSettings.json` to avoid rebinding everything.  
+- Path: `CyberVision → Profiles → Selected profile → UserSettings.json`
+
+**WABBAJACK MAIN PAGE USERS**  
+- If you wish to try the **1.3.0 RC**, grab the **WabbaFile** on the Nexus CyberVision mod page.
+
+⚠️ The game may crash the first time you reload your save due to new changes.  
+- If it crashes, it should only happen once.
+
+✅ Kinda save-friendly.  
+- You can continue your current playthrough.
+
+---
+
+### Mod Updates, New Mods & Swaps
+
+#### Added
+- Orange Double Calibre
+- Prop Collision Fix
+- Arch Dirt Bike
+- Night City Badges – NCPD Overhaul
+- Traffic Unjammed
+- ImmersiveHUD
+- Ford GT
+- Ducati 916
+- Corpse Loot Fix
+- Riot Club Unlocked and Remastered
+- The Empathy Club Unlocked
+- Law Enforcement Overhaul
+- Law Enforcement Overhaul Reset (Spawn Compatibility – MaxTac Rebalanced – Fleet Expansion)
+- Law Enforcement Overhaul Reset – Fleet Expansion
+- Faction Evolved Law Enforcement Overhaul Reset Addon
+- NCPD and MaxTac Spawn Tweak (district-specific police behavior)
+- Lotus Esprit Turbo
+- Totentanz Club Enhanced
+- AI Trigger Overhaul – More Perceptive NPCs
+- Smoother Dodge And Dash
+- Stealthrunner – Stealth Gameplay Expansion
+- Enemy Aggro Improvements
+- Combat (Only AI)
+- Combat Revolution – REBALANCE
+
+#### Updated
+- KiasuBurger Cyberware Core
+- Lotus Esprit Turbo
+- Hotscenes
+- VEEGEE SHOP 3
+- Lizzie’s Braindances
+- Axellysse Virtual Atelier
+- Weapon Sound Remake
+
+#### Swaps
+- Improved Dodge and Dash → Smoother Dodge And Dash
+
+---
+
+### Tweaks & Presets
+
+- Shift camera adjustments:
+  - Some cars remade
+  - Some bikes remade
+  - First-person idle remade
+
+- All profiles load order updated
+
+---
+
+Cheers 😏  
+
+
 ## [1.2.1] – Update & Optimization
 
 ### General Optimizations
