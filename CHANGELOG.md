@@ -5,6 +5,135 @@ For quick summaries, see Discord and Nexus.
 This file serves as the main and complete source of truth.
 
 
+
+## [1.3.0] – Update
+
+### Update / Optimization / Fixes / New mods & tweaks
+
+### General Changes
+
+Return of Ultra Plus:
+
+- Disabled by default for people who want it.
+- Set up for every profile already.
+- Disable any CPU Fix if you use Ultra Plus.
+
+Profiles remade:
+
+Use Raster & RT on Raster & RT profiles and use Path Tracing on Path Tracing profiles.
+
+- 01 - RASTER & RT Standard - RTX 3070 RX 6700 XT
+- 02 - RASTER & RT Very High - RTX 4070 RX 9070 XT
+- 03 - RASTER & RT Ultra - RTX 4090 RX 7900 XTX
+- 04 - PATH TRACING Standard - RTX 4070 TI RX 9070 XT
+- 05 - PATH TRACING Very High - RTX 5070 TI
+- 06 - PATH TRACING Ultra - RTX 4090
+- 07 - FR - RASTER & RT Standard - RTX 3070 RX 6700 XT
+- 08 - FR - RASTER & RT Very High - RTX 4070 RX 9070 XT
+- 09 - FR - RASTER & RT Ultra - RTX 4090 RX 7900 XTX
+- 10 - FR - PATH TRACING Standard - RTX 4070 TI RX 9070 XT
+- 11 - FR - PATH TRACING Very High - RTX 5070 TI
+- 12 - FR - PATH TRACING Ultra - RTX 4090
+
+New mods, updates to existing mods, and various tweaks and fixes:
+
+- Tons of new mods
+- Removed conflicting mods
+- New MO2 separators and cleaned profiles
+- New optimization choices
+- Camera settings
+
+### Important
+
+Before updating, make sure to back up your `UserSettings.json` to avoid rebinding everything.  
+- Path: `CyberVision → Profiles → Selected profile → UserSettings.json`
+
+⚠️ The game may crash the first time you reload your save due to new changes.  
+- If it crashes, it should only happen once.
+
+✅ Kinda save-friendly.  
+- It would be better to do a new game but I understand, it is painful.
+
+---
+
+### Mod Updates, New Mods & Swaps
+
+#### Added
+
+- Ultra Plus
+- Toyota Supra Mk3
+- Draw Distance Reimagined
+- Orange Double Calibre
+- Prop Collision Fix
+- Arch Dirt Bike
+- Night City Badges – NCPD Overhaul
+- Traffic Unjammed
+- ImmersiveHUD
+- Ford GT
+- Ducati 916
+- Corpse Loot Fix
+- Riot Club Unlocked and Remastered
+- The Empathy Club Unlocked
+- Law Enforcement Overhaul
+- Law Enforcement Overhaul Reset (Spawn Compatibility – MaxTac Rebalanced – Fleet Expansion)
+- Law Enforcement Overhaul Reset – Fleet Expansion
+- Faction Evolved Law Enforcement Overhaul Reset Addon
+- NCPD and MaxTac Spawn Tweak (district-specific police behavior)
+- Lotus Esprit Turbo
+- Totentanz Club Enhanced
+- AI Trigger Overhaul – More Perceptive NPCs
+- Smoother Dodge And Dash
+- Stealthrunner – Stealth Gameplay Expansion
+- Enemy Aggro Improvements
+- More Vigilant Enemies
+- More Cautious And Chaotic Enemies
+- Dead Body Alert
+- Faction Evolved Claim Vehicle
+- Faction Evolved Gang VS Gang
+- Faction Evolved Law Enforcement Overhaul
+
+#### Updated
+
+- Lotus Esprit Turbo
+- Modular Military Mask - ArchiveXL
+- Tac Threads Atelier
+- Night City Traffic Overhaul
+- Factions Evolved
+- KiasuBurger Cyberware Core
+- Lotus Esprit Turbo
+- Hotscenes
+- VEEGEE SHOP 3
+- Lizzie’s Braindances
+- Axellysse Virtual Atelier
+- Weapon Sound Remake
+- Night City Aroused Encounters Assets FOMOD
+- Dusty Virtual Atelier
+- Go on a Date (Panam) - Side romance activity
+- Silent Silencers and Throwing Knives
+
+#### Removed
+
+- Unaware Executions
+- Improved Vehicle Lights Draw Distance
+- Framework - Unique Evelyn Body Shape - Rig
+
+---
+
+### Tweaks & Presets
+
+- Shift camera adjustments:
+  - All cars remade + some custom-made
+  - All bikes remade + some custom-made
+  - Handguns / knives / katanas / shotguns / assault rifles remade
+
+- All profiles load order updated
+
+---
+
+Cheers 😏
+
+
+
 ## [1.3.0 RC2] – RC BETA TEST Update
 
 ### New mods / Hotfix AI
