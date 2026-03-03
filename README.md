@@ -69,12 +69,18 @@ For **setup instructions, configuration details, and troubleshooting**, check th
 ---
 
 ## 🎮 Profiles & Settings
-- **Standard Non RT/PT** → RTX 3070TI / 6700 XT  
-- **Standard RT/PT** → RTX 4070 TI / 9070 XT  
-- **Very High Non RT/PT** → RTX 4070 TI / 9070 XT  
-- **Very High RT/PT** → RTX 5070 TI / 9070 XT  
-- **Ultra Non RT/PT** → RTX 4090 / 7900 XTX  
-- **Ultra RT/PT** → RTX 4090  
+- 01 - RASTER & RT Standard - RTX 3070 RX 6700 XT 
+- 02 - RASTER & RT Very High - RTX 4070 RX 9070 XT
+- 03 - RASTER & RT Ultra - RTX 4090 RX 7900 XTX 
+- 04 - PATH TRACING Standard - RTX 4070 TI RX 9070 XT 
+- 05 - PATH TRACING Very High - RTX 5070 TI
+- 06 - PATH TRACING Ultra - RTX 4090 
+- 07 - FR - RASTER & RT Standard - RTX 3070 RX 6700 XT 
+- 08 - FR - RASTER & RT Very High - RTX 4070 RX 9070 XT
+- 09 - FR - RASTER & RT Ultra - RTX 4090 RX 7900 XTX
+- 10 - FR - PATH TRACING Standard - RTX 4070 TI RX 9070 XT
+- 11 - FR - PATH TRACING Very High - RTX 5070 TI
+- 12 - FR - PATH TRACING Ultra - RTX 4090
 
 ---
 
