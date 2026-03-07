@@ -6,6 +6,114 @@ This file serves as the main and complete source of truth.
 
 
 
+## [1.3.1] – Update
+
+### Graphics / Optimization / Fixes / New Mods & Tweaks
+
+### General Changes
+
+CyberVision ENV tweaked:
+
+- Darker exterior at night while keeping good visibility.
+- Less aggressive eye adaptation.
+- Reduced flashbang effect when driving in first person.
+- Warmer and more saturated color tones.
+- Brighter shadows.
+- Clouds tweaked.
+- Clearer interiors.
+- General exposure adjustments.
+- Basically a lot of improvements — one full week of tweaking.
+
+Night City Alive swapped and adjusted:
+
+- Night City Alive REDmod replaced with the non-REDmod version.
+- Night City Alive Low Density for Ultra profiles.
+- Night City Alive Standard Density for Standard and Very High profiles.
+
+New mods, updates to existing mods, and various tweaks and fixes:
+
+- Added new mods
+- Updated mods
+- Removed mods
+
+### Important
+
+⚠️Before updating, make sure to back up your `UserSettings.json` to avoid rebinding everything.  
+- Path: `CyberVision → Profiles → Selected profile → UserSettings.json`
+
+⚠️ The game may crash the first time you reload your save due to new changes.  
+- If it crashes, it should only happen once.
+
+✅ Save-friendly.  
+- You can continue your current save.
+
+---
+
+### Mod Updates, New Mods & Swaps
+
+#### Added
+
+- Night City Alive Low Density
+- Night City Alive Standard Density
+- Lotus Opel Omega
+- DogTown Stadium Unlocked and Remastered
+- Tanishi T420 Yolo
+- Vessnelle's Hair - Leon - CCXL
+- Bike Overhaul - TweakXL
+- Yaiba Kusanagi Overhaul
+- Afterlife Unlocked and Remastered
+
+#### Updated
+
+- Lizzie's Braindances
+- Deceptious Bug Fixes
+- NC Fashion Virtual Atelier
+- Hyst Atelier Store - Virtual Atelier
+- Sabbath7991 Weapon and Attachment Shops - Virtual Atelier
+- The RVC00N Dumpster 3 - PinkyDude's Virtual Atelier
+- Watch Your Back
+- Melee Animation Randomizer
+- APEX - Sonora Canyon and Safehouse
+- Arch Dirt Bike
+
+#### Removed
+
+- Night City Alive (REDmod)
+- 0-Engine
+
+---
+
+### Tweaks & Presets
+
+Shift camera adjustments:
+
+- Cars remade + some custom-made
+- Bikes remade + some custom-made
+
+CyberVision ENV:
+
+- Remade and tweaked
+
+ENV Tuner Simple:
+
+- Shadow boost reduced from 1.8 → 1.4
+
+ReShade and RenoDX:
+
+- More saturation
+- Less exposure
+- Brighter shadows
+
+All profiles load order updated
+
+⚠️ Refer to the **#Infos** channel for new changes about **settings and profiles**.
+
+---
+
+Cheers 😏
+
+
+
 ## [1.3.0] – Update
 
 ### Update / Optimization / Fixes / New mods & tweaks
