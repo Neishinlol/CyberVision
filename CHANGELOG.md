@@ -6,6 +6,90 @@ This file serves as the main and complete source of truth.
 
 
 
+## [1.3.2] – Update
+
+### Graphics / Optimization / Fixes / New Mods & Tweaks
+
+### General Changes
+
+Custom Main Menu.
+
+CyberVision ENV tweaked (again):
+
+- Night lighting is no longer blue.
+- Night exposure tweaked to vary depending on the weather.
+- Moon reworked.
+- Night fog during rain fixed.
+- Brighter shadows.
+
+Ultra Plus 8.1 swapped to 8.0:
+
+- Version swapped for performance reasons.
+- Ultra Plus settings per profile redone.
+
+New mods, updates to existing mods, and various tweaks and fixes:
+
+- Added new mods
+- Updated mods
+
+### Important
+
+⚠️ Before updating, make sure to back up your `UserSettings.json` to avoid rebinding everything.  
+- Path: `CyberVision → Profiles → Selected profile → UserSettings.json`
+
+⚠️ The game may crash the first time you reload your save due to the new changes.  
+- If it crashes, it should only happen once.
+
+✅ Save-friendly.  
+- You can continue using your current save.
+
+---
+
+### Mod Updates, New Mods & Swaps
+
+#### Added
+
+- Leon's Outfit RE Requiem (Archive XL - FemV and MaleV)
+- Leon's Jacket RE Requiem (Archive XL - FemV and MaleV)
+- Impact Kill Looting Fix
+- Licks Club
+- Arch Byakko
+- LemurLord's Vehicle Customizer Updated
+
+#### Updated
+
+- Incubus - Unique V Male Fitness Rig
+- Draw Distance ReImagined
+- Military Accessories - Balaclava Pack - ArchiveXL
+- Zenitex Core Dependency
+- M50 Military Gas Mask - ArchiveXL
+- CyberVision ENV
+- CyberVision Reshade
+- Cyberpunk Ultra Plus
+
+---
+
+### Tweaks & Presets
+
+Shift camera adjustments:
+
+- Cars remade + some custom-made
+- Bikes remade + some custom-made
+
+CyberVision ENV:
+
+- Tweaked again.
+
+All profiles load order updated.
+
+⚠️ REFER TO THE **#Infos** CHANNEL FOR NEW CHANGES ABOUT **SETTINGS & PROFILES** ⚠️
+
+
+
+---
+
+
+
 ## [1.3.1] – Update
 
 ### Graphics / Optimization / Fixes / New Mods & Tweaks
