@@ -5,6 +5,129 @@ For quick summaries, see Discord and Nexus.
 This file serves as the main and complete source of truth.
 
 
+## [1.4.0 RC1] - Update
+
+### ENV Tweaks / Bug Fixes / New Mods
+
+### General Changes
+
+CyberVision ENV tweaked (again):
+
+- Nights are now perfectly balanced.
+- Exposure and lighting fixes between 6–8 and 7–8.
+- Pollution weather swapped for darker rain.
+- Toxic rain swapped for green foggy rain.
+- Even during dark nights, upgrade your eyes with Night Vision or use a flashlight.
+
+Bug fixes:
+
+- Random NPC outfit bug
+- Full Disclosure gig quest
+- Parkour double jump
+- Double Jump + Charged Jump
+- Warning messages not displayed
+- Fog / Smoke flickering (should disappear after weather transition)
+
+### Important
+
+⚠️ Before updating, make sure to back up your `UserSettings.json` to avoid rebinding everything.  
+- Path: `CyberVision → Profiles → Selected profile → UserSettings.json`
+
+⚠️ The game may crash the first time you reload your save due to the new changes.  
+- If it crashes, it should only happen once.
+
+⚠️ WABBAJACK MAIN PAGE USERS  
+- If you wish to try the **1.4.0 RC1**, grab the **WabbaFile** on the Nexus CyberVision mod page.
+
+✅ Save-friendly.  
+- You can continue using your current save.
+
+---
+
+### Mod Updates, New Mods & Swaps
+
+#### Added
+
+- Crowd E3 2018 Restored
+- Vault 404 (Fallout Shelter)
+- Underground Casino (Working Roulette)
+- Tucker Albachs Apartment Enhanced
+- The Moth Bar Lair
+- Roller Coaster Expanded
+- Regina's NCPD Headquarters
+- Red Queens Club Enhanced
+- Pew Pew Plaza Enhanced
+- Petrel Street Apartment Enhanced
+- Megabuilding 8 Expanded (with Apartments)
+- Murkman Cave (BATMAN)
+- Konpeki Plaza Expanded (with Apartment)
+- Konpeki Plaza Unlocked 2.31
+- Japantown Shooting Range
+- Japantown Greenery
+- Grand Imperial Mall Theater
+- Cinema in Grand Imperial Mall
+- Gloria's House (with Garage)
+- Gaston Slaytons Apartment Enhanced
+- Empathy Bar Enhanced
+- Drive-In Theater (Working Movie Screen)
+- SPC TV Screen (Silver Pixel Cloud Drive-In Theater)
+- SPC Open roof double ladder fix
+- SPC Open (Silver Pixel Cloud Drive-In Theater)
+- Dogtown Airship (with Apartment and NPC Party Below)
+- Dark Matter Club (with Apartment)
+- Dandelion Cocktail Bar Enhanced
+- Crunch Plaza Expanded
+- Biotechnica Hotel Enhanced (with Apartment)
+- Arasaka Estate Mansion
+- Arasaka Estate Unlocked - No More Guards
+- 7th Hell Bar Enhanced
+- Atlantis Club Expanded
+- The Atlantis - Restored
+- Gone in 2077 Seconds
+- Arasaka Estate Unlocked
+- Butchers Of Night City
+- Plymouth Barracuda Formula S
+
+#### Updated
+
+- Licks Club
+- VOIDWEAR Virtual Atelier
+- Quickhack Hotkeys
+- New Lifepath Intro - Fresh Start
+- Night City Interactions - Core
+- KMKC's - Virtual Atelier
+- VEEGEE SHOP 3
+- Night City Enhanced and Expanded - NPCs
+- Dusty Virtual Atelier
+- Clear Windows
+- CyberVision ENV
+
+#### Removed
+
+- Crystal Coat Ignores Damage
+- NCI Addon - Watson
+- Japanese Apartment
+- Post-Romance Reward (Judy) (FR)
+- Corpo Rooftop Bar
+
+---
+
+### Tweaks & Presets
+
+- Shift camera adjustments:
+  - Cars remade + some custom-made
+  - Bikes remade + some custom-made
+
+- CyberVision ENV
+  - Tweaked again
+
+- ImmersiveHUD
+  - Warning messages removed via WolvenKit
+
+- All profiles load order updated
+
+⚠️ Refer to the **#infos channel** for new changes about settings & profiles.
+
 
 ## [1.3.2] – Update
 
