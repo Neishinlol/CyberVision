@@ -4,7 +4,308 @@ All notable changes to this project are documented in this file.
 For quick summaries, see Discord and Nexus.  
 This file serves as the main and complete source of truth.
 
+
+## [2.0.0] - Update
+
+### General Changes
+
+CyberVision ENV:
+
+- Fixed fog flickering (for real this time, hopefully) – PT & RT,
+- Darker environment with more contrast.
+
+Bug fixes:
+
+- More stable, better performances overhaul,
+- Some invisible weapons,
+- Smoke flickering,
+- Random mesh issues in Afterlife,
+- Evelyn's hair fixed.
+
+Total body rework:
+
+- KS UV replaced with VTK,
+- All tattoos / overlays / textures converted from KS UV to VTK,
+- Masc V body replaced with Gymfriend,
+- Fem V body replaced with EBBRB,
+- All 564 outfit mods updated to match the new bodies.
+
+Total traffic rework:
+
+- Traffic Overhaul updated to the latest version for all profiles,
+- Factions Evolved updated to the latest version for all profiles,
+- Factions Evolved VSF settings added to Very High profiles,
+- Custom VSF distribution added to Ultra profiles,
+- Realistic Traffic Density replaced with Nova City Population for Ultra profiles (will melt your PC).
+
+All profiles reworked:
+
+- All settings rebalanced for every profile,
+- CPU optimization disabled by default,
+- Ultra+ settings adjusted for all profiles,
+- Modlist.txt load order fully redone.
+
+Tweaks : 
+
+- Polyglot & Cosmopolitan night city
+- Night city Alive 
+- NPC Detection
+
+### Important
+
+⚠️ Before updating, make sure to back up your `UserSettings.json` to avoid rebinding everything.  
+- Path: `CyberVision → Profiles → Selected profile → UserSettings.json`
+
+⚠️ The game may crash the first time you reload your save due to the new changes.  
+- If it crashes, it should only happen once.
+
+⚠️ Your character appearance may change, and your current outfit might be missing.  
+- Visit a ripperdoc (Viktor) to fix your appearance and get new clothes.
+
+✅ Starting a new save is recommended for the best experience, but the update remains mostly save-friendly.  
+- You can continue using your current save.
+
+---
+
+### Mod Updates, New Mods & Swaps
+
+#### Added
+
+- Priest Set or Clerical Set for Masc V
+- Waist Tied Jacket - Accessory for Masc V
+- Skin-tight tank top for Masc V
+- Holster Shirt for Masc V
+- Voodoo Tank for Masc V - Archive XL
+- Large T-Shirt for Masc V - Archive XL
+- Spiky leather jacket for Masc V - Archive XL
+- Casual Style Outfit Pt38 - BOTH V
+- Streetwear Pt6 - BOTH V
+- Streetwear Pt5 - BOTH V
+- Hotline Miami Masks
+- AVANTE - Afficianado Suit - ArchiveXL
+- E-Suture CL - Cargo Pants - ArchiveXL
+- E-Suture CL - Tactical Pants - ArchiveXL
+- HeRa Masc Atelier Store
+- Men's Office Suit (Masc)
+- Casual Tac Shirt by HERA
+- Easton Hoodie by HERA
+- Naomi Set by HERA
+- CEO Set by HERA
+- Abstract Street Shirt by HERA
+- House of Vesna - Virtual Atelier
+- House of Vesna - Oversized Hoodie for Male V - Masc V - MV CLOTHES
+- House of Vesna - Vesnace Turtleneck Collection for Male V - Masc V - MV CLOTHES
+- House of Vesna - Vesnace Better Call Saul Shirt Collection for Male V - Masc V - MV CLOTHES
+- Masuryan's Atelier Store
+- Casual Reborn Outfit(ArchiveXL)
+- Twilight Romance Elegant Suit Masc V(ArchiveXL)
+- Boudoir Pt32
+- Vehicle manufacturer fix
+- Plymouth GTX 426 HEMI
+- Volkswagen Scirocco R ABT Bodykit
+- Mercedes Benz W124 500E
+- Mitsubishi Lancer Evolution VI GSR
+- Pontiac Firebird Trans AM GTA
+- Opel Manta 400 Group B
+- Porsche 911 Reimagined by Singer DLS
+- Mercedes Benz 190e Evo ll
+- Mitsubishi Starion ESI-R
+- BMW M8 Competition coupe
+- Mercedes Benz c63s AMG
+- Ford Mustang RTR Spec 5
+- Audi R8 Liberty Walk
+- infrab's Alluring Poses
+- Plymouth GTX 426 HEMI
+- Volkswagen Scirocco R ABT Bodykit
+- Mercedes Benz W124 500E
+- Mitsubishi Lancer Evolution VI GSR
+- Not So Good Draw Distance Mod
+- Meredith Stout Makeover
+- 0-Engine
+- Biotechnica Cache - New Iconic Weapons + FR
+- Animals Cache - New Iconic Weapons + FR
+- Tyger Cache - New Iconic Weapons + FR
+- Nomad Cache - New Iconic Weapons + FR
+- MaxTac Silencer (New Iconic Weapon) + FR
+- Mox Cache - New Iconic Weapons + FR
+- All Foods Cache - New Iconic Weapons + FR
+- 3 short hairstyles
+- Faction Overhaul Vehicle Selector Frontend Preset
+- Vehicle manufacturer fix
+- Reference Path Tracing
+- Improved Vehicle Lights Draw Distance
+- Kunai 2_0 - customizable throwable ninja weapon
+- Yasha Reskin - Black V1
+- Impoverished Santo Domingo Apartment
+- Second Conflict - Kerry's Eyes for V (CCXL)
+- CYB3RSN4K3 _ DOGHAUS RELOADED - INTERACTIVE
+- Drug Objects - Prop Pack
+- Dogtown Nomad Hideout Apartment - ArchiveXL
+- Mitsubishi Eclipse GSX (1999)
+- Stash Filters
+- Comrade's Hammer Reskin - Black V1
+- Shingen Mark V Reskin - Black V1
+- Order Reskin - Black V1
+- Pizdets Reskin - Black V1
+- Widow Maker Reskin - Black V1
+- Rasetsu Reskin - Black V1
+- Agaou Reskin - Black V1
+- Yaiba Muramasa Edits
+- Misc NC Fixes
+- Ballistic Coprocessor Modifications (WeaponGrip)
+- Stealth Finishers (ZKV_Takedowns)
+- Nomad Trailer Apartment
+- Nova City - Population
+
+#### Updated
+
+- ALL OUTFITS / TEXTURES / EVERYTHING FOR MATCHING NEW BODIES ( 564 )
+- Yaiba Kusanagi CT3-Y Streetfighter
+- Night city Aroused encounters assets FOMOD
+- Evelyn's New Look
+- Lizzie's Braindances
+- ArchiveXL
+- Codeware
+- VendorsXL
+- AK Pack
+- Night City Enhanced and Expanded - NPCs + FR
+- Sabbath7991 Weapon and Attachment Shops - Virtual Atelier
+- Aurore Romanced (Lady Marmalade)
+- Flaming Crotch Man Romanced
+- Weeee (New H10 Exit)
+- New Quest - One More Light
+- Gone Away - Better Partner Suspended Behaviour
+- New Quest - Hot Fuzz
+- Rita Wheeler Romanced
+- New Quest - Encore
+- New Quest - Californication
+- Immersive Main Menu Audio
+- Adam Smasher Encounters
+- Night City Visuals Nulled
+- Armor Up - Player Armor Rework
+- Exploded Vehicles Smoke Overhaul VFX
+- Native Settings UI Side Menu Add-on
+- Hotscenes - play Cyberpunk Joytoy sex scenes with your favorite characters
+- Disable Fake Lights with Path Tracing
+- Deceptious Bug Fixes
+- Night City Badges - NCPD Overhaul
+- DerniersMessages
+- Dead Air - An Evelyn Parker story
+- Player Body Cyberware Injector
+- JB - FPP Nude Patch
+- Watch Your Back
+- Equipment-EX
+- Butchers Of Night City
+
+#### Removed
+
+- No More Milky Glass Plus Eyes AO
+- H10 Apartment E3 Advertisements
+- Lick Club
+- Night City Flooded
+- Incubus - Unique V Male Fitness Rig
+- KS- Unique V - Revised body skin for Masc V
+- HUD Painter - FR Translation
+- Weather Switcher traduction FR
+- Virtual Atelier - Traduction Francaise
+- Toggleable Feet for V - ArchiveXL and EquipmentEx
+- MONSTERaider - Strap Dress ArchiveXL
+- MONSTERaider - Slim Bolero Jacket ArchiveXL
+- MONSTERaider - Thigh Gun Holster ArchiveXL
+- MONSTERaider - Hollow Bra ArchiveXL
+- MONSTERaider - Formal Corpo Dress Remake ArchiveXL
+- MONSTERaider - Cutouts Jumpsuit ArchiveXL
+- (Silver Six Store) Aranea's Outfit - Archive XL
+- ORION Industries - Tactical Holsters (Standalone)
+- Arasaka Black Ops Armor (Archive XL version)
+- Samurai Tank-Tops
+- Long gloves for fV - ArchiveXL - PL compatible
+- Ghostrunner Outfit - Cyberarms and Sword - Archive XL
+- Rebel Rider Outfit - Archive XL
+- Kasumi Swap for V and Outfit - Archive XL
+- Barbie Sport Outfit - Archive XL
+- Bad Cop Outfit
+- Ayane Ninja Outfit
+- Cyborg Torso
+- BloodRayne Outfits and Hair
+- Haven Trooper Suit - Archive-XL
+- Ruby Rose Collection
+- yorha 2b Collection
+- Retribution Outfit
+- Blaidd Sword - Archive-XL
+- Deus Ex Outfit and CyberArms
+- Lingerie Set - 6 Colors
+- Rocker Girl Clothes
+- Project 464 Body Cyberware (Archive XL - FemV)
+- Jacket Bolero Hex Archive XL
+- XRX Crop TankTop Hyst EBBP 2023 Archive XL
+- Batgirl Casual Outfit Archive XL
+- The RVC00N Dumpster - Infiltrator Jacket (M-F) (GS) (AXL)
+- The RVC00N Dumpster - Sandstorm SideTop (M) (Archive XL)
+- Streekid Outfit PT2 - Archive XL
+- The RVC00N Dumpster - Bodyguard Rolled Coat (M-F) (Archive XL)
+- The RVC00N Dumpster - Gatekeeper Costume (M-F) (Archive XL)
+- The RVC00N Dumpster - OpenBack Tank Top (M) (Archive XL)
+- The RVC00N Dumpster - Rogue Jacket (M F) (Archive XL)
+- The RVC00N Dumpster - Short Windbreaker Jacket (M) (Archive XL)
+- The RVC00N Dumpster - Rubber Suspenders (F) (Archive XL)
+- The RVC00N Dumpster - Strapped BodySuit (F) (Archive XL)
+- The RVC00N Dumpster - Tight Shiny Pants (F) (Archive XL)
+- Dino Vest - Male V Fem V - Archive XL - Replacer
+- Modular Tactical Harness - Archive XL
+- Srgpf Full Outfit For MALE - Archive XL
+- (Silver Six Store) Scarlet's Outfit - Archive XL
+- (Silver Six Store) Bai Moqing's Outfit - Archive XL
+- Aldecaldos Armored Aramid Vest
+- Ghost's Nightwar Outfit
+- AAbdii's Armory Atelier
+- The RVC00N Dumpster - Hacktivist Set (M-F) (GS) (Archive XL)
+- High Fashion Netrunner - more than 150 suits
+- The RVC00N Dumpster - Comfy Pullover (M) (GS) (Archive XL)
+- The RVC00N Dumpster - Paw Pad Bolero (M-F) (GS) (Archive XL)
+- Gabriella X Veegee Streetwear - Archive XL
+- Nerdish X Veegee Kurt Outfit - Archive XL
+- Versalife X Veegee Daisho Set
+- The RVC00N Dumpster - Candy Hoodie (M-F) (Archive XL)
+- The RVC00N Dumpster - Colorful Plastic Hoodie (M) (Archive XL) (PRIDE)
+- The RVC00N Dumpster - Colorful Striped Hoodie (M F) (Archive XL) (PRIDE)
+- The RVC00N Dumpster - Ripped Sweater (M) (Archive XL)
+- The RVC00N Dumpster - Sunny Cropshirt (M) (Archive XL)
+- AVS PLATE CARRIER - 707 TACTICAL-TARIQY COLLAB
+- 707 COMBAT UNIFORM - ARCHIVE XL
+ -Veegee Casual Suit - Both V - Archive XL
+- Workpants
+- Voodoo Hood
+- Valentino Shirt
+- Maelstrom Jacket
+- Vincent's World Atelier
+- Hoodie
+- Skull Mask
+- Tight Tanktop
+- Sweater
+- Sweater Belt
+- Leather Jacket
+- Sock Sneaker
+- Basic Tank
+- Fingerless Gloves
+- Traffic Unjammed
+- 404NotFound Traffic Lights Resolved (simply 404TLR)
+- Modern Screens and Ads (Compatible with 2.12)
+
+⚠️ I probably forgot some of mods, its been a long ride.
+
+---
+
+### Tweaks & Presets
+
+- Shift camera adjustments
+- All profiles load order updated
+
+⚠️ Refer to the **#infos channel** for updated settings & profiles.
+
+
 ###
+
 
 ## [1.4.0] - Update
 
