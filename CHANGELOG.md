@@ -4,6 +4,320 @@ All notable changes to this project are documented in this file.
 For quick summaries, see Discord and Nexus.  
 This file serves as the main and complete source of truth.
 
+## [2.1.0] - Update
+
+### General Changes
+
+Update & Fix :
+
+- Car FPP interior fixed, it will not flashbang you anymore,
+- Lot of Update of core mods,
+- Lot of New mods,
+- Lot of tweaks.
+
+Bug fixes:
+
+- More stable, better performances overhaul,
+- Fix Crashs due to NSGDD on Ultra Profiles.
+- Fixed crash Related to Reshade.
+- Fixed Fog Flickering for real this time.
+
+Tweaks : 
+
+- Swap NCFL & NCVN for The Nullifier,
+- Swap EB Judy & EB Panam for AB Judy & Panam + Custom outfits,
+- Swap Framework - Unique V Body Shape for Unique V Body Rig Framework,
+- Swap ENV Tuner for Nova Optics.
+- Swap Reshade 6.2.0 to 6.3.3.
+
+### Important
+
+⚠️ Before updating, make sure to back up your `UserSettings.json` to avoid rebinding everything.  
+- Path: `CyberVision → Profiles → Selected profile → UserSettings.json`
+
+⚠️ The game may crash the first time you reload your save due to the new changes.  
+- If it crashes, it should only happen once.
+
+⚠️ Since the Rework of V Body some outfit may crash on Preview, please track crashing outfits and post it on Discord.
+
+⚠️ Lot of New outfits in this Update are requirement for some NPC change, they are disabled in Virtual Atelier for now,
+If you want to wear it yourself, its gonna be with codes.
+
+❌ Not Save-friendly.  
+- You have to do a new Save.
+
+---
+
+### Mod Updates, New Mods & Swaps
+
+#### Added
+
+- 1995 Nissan Skyline GT-R LM Nismo
+- Kawasaki Ninja H2R
+- Little China - Store Windows Fixed
+- Deceptious Mods Photo Mode Outfits
+- Aston Martin Valkyrie AMR Pro
+- Nissan 240SX 1993
+- Volvo 1800S The Sinner
+- Hot Wheels Deora II
+- Hot Wheels Twin Mill
+- Shelby Cobra 427
+- E-Suture - Virtual Atelier
+- Gomorrah Night Club
+- (Less) Perfect Rain
+- Reinforcements System Delayed
+- 2026 Porsche Cayenne Turbo GT - Resident Evil Requiem
+- Someone Call NCPD
+- Eve Nikke Coolingsuit Archive XL
+- Diana Headgear Collection Modular Archive XL
+- Songbird Cyberdeck Archive XL
+- T-Bug - Redesign
+- Nola Dreamer x Aquelyras - goth outfit - Archive XL
+- Rick Owens Ramones Shoes - Fem - Masc V - Archive XL
+- Retro Punk Outfit(ArchiveXL)
+- Nola Dreamer's Spiked Collar - Archive XL - Both V
+- Casual Style Outfit Pt13
+- Goth Outfit Pt8
+- Chic And Elegant Style Outfit
+- Nola Dreamer's hairs Chloe - Physics enabled - CCXL - AXL
+- Misty - redesign. Goth Edition
+- Casual Style Outfit Pt23 - Both V
+- Nola Dreamer's hair Ruth - Physics enabled - CCXL - AXL
+- Bayonetta Glasses - Archive XL
+- Gothic Officer Cap
+- Spiked Leather Suit (Archive XL)
+- Woman in chains 2 (Archive XL)
+- Woman in belts (Archive XL)
+- Kinky Woman 2 (NSFW) - (Archive XL)
+- Kinky Woman (NSFW) - (Archive XL)
+- Boudoir Pt10 - Archive XL
+- Meredith - redesign
+- Zenitex Stealthsuit - Modular Military Bodysuit - ArchiveXL
+- Zenitex FM12 Respirator Mask - ArchiveXL
+- Bodysuit - Archive XL
+- Curvy Misty Olszewski
+- Misty Phantom Liberty addon
+- Casual Style Outfit Pt19
+- Apple Watch Ultra - FemV and MascV
+- Boudoir Hakkiweeb Pt2
+- Bunny Girl Outfit - Archive XL Judy
+- Buttoned Swimwear - FemV
+- Caldos Ripper - Nipple Piercings (M-F) (Archive XL)
+- Casual Style Outfit Pt14
+- Casual Style Full Outfit - Archive XL
+- Casual Style Outfit Pt37
+- Dynamic Appearances Project - BETA
+- Ear Plugs - ArchiveXL or More Head Meshes (fem V)
+- Feather Earrings ArchiveXL
+- Finesse Lingerie - ArchiveXL
+- Fishnet Tights V2 - Archive XL
+- infrab's Crop Tank Natural
+- Iris Pajamas (Archive XL)
+- Jewellery Collection - ArchiveXL (fem V)
+- Judy's Moar New Threads
+- Lace Puff Top - ArchiveXL (fem V)
+- Lean Cross Earing for Female V Only
+- LostInACave X Veegee Jeans - Archive XL Judy
+- Maneo Retro Wrist Watch - Both V - ArchiveXL
+- Maid Outfit - Archive XL Judy
+- Mani X Veegee Shirt Dress - Archive XL
+- Mayo - Tight Jeans XL - Overhaul Soon
+- Mayo - Zipped Crop Top
+- Meluminary X Veegee Sweetheart Boudoir Pt5 - Archive XL Judy
+- Merrin Hairstyle - CCXL
+- Nike Air Force 1 - Mid '07 - AXL Shoes (FemV and MascV)
+- Nike Jordan 1s x Off-White - Euro Colorway - AXL Shoes (FemV and MascV)
+- Nola Dreamer and Aquelyras - girly outfit - Archive XL
+- Nola Dreamer and Aquelyras - Stunning outfit - Archive XL - Physics
+- Nola Dreamer x Aquelyras - Summer outfit - Archive XL
+- Nola Dreamer's AirPods Max - Archive XL
+- Nola Dreamer's Barbed accessories - Archive XL - Both V
+- Nola Dreamer's Blazer Dress - Archive XL
+- Nola Dreamer's Bracelets collection - Archive XL
+- Nola Dreamer's Brooklyn outfit - archive XL
+- Nola Dreamer's Bright Mood outfit - Archive XL
+- Nola Dreamer's Lacelette lingerie Rossella - archive XL
+- Nola Dreamer's heart choker and garters - archive XL
+- Nola Dreamer's Mini Jumpsuit - archive XL
+- Nola Dreamer's Moon accessories - Archive XL - Fem V
+- Nola Dreamer's simple drops (blood and water) - archive XL
+- Nola Dreamer's Sport Leggings - archive XL
+- Nola Dreamer's Square neckline top - Archive XL
+- Nola Dreamer's Stockings Collection - Archive XL Judy
+- Nola Dreamer's V Back Leggings - archive XL
+- OVER THE KNEE SOCKS - AXL ACCESSORIES
+- NW-StableBlack Boots - ArchiveXL
+- Pendant Necklaces - ArchiveXL (fem V)
+- Prestige Bracelet - FemV
+- Prestige Glasses - FemV and MascV
+- QIPAO dress - Archive XL Judy
+- Real Pubic Hair
+- Ruffle Lingerie Set(ArchiveXL)
+- Spicy Sports Outfit (Archive XL)
+- Sporty Outfit Vol2(ArchiveXL)
+- Strapped Couture (Archive XL)
+- Subleader Hair Pack - CCXL
+- Summer Shirts
+- TATTOO CHOKER - AXL ACCESSORIES
+- UNISEX CROP JACKET - AXL CLOTHING
+- V's sexy piercing - Part 3 - (Archive XL)
+- Veegee Baseball Cap Hair - CCXL - BOTH V
+- Veegee Stockings And Gloves Collection
+- WashxVeegee lace shirt- Archive XL
+- Panam alternate body
+- Panam alternate body - dynamic appearances
+- Realistic Traffic Density
+- Nola Dreamer and Aquelyras atelier
+- Catherwood's - Virtual Atelier Shop
+- Mayo Virtual Atelier
+- Zenitex Combat T-Shirt - ArchiveXL
+- Judy - Project Osiris
+- Panam's Moar New Threads
+- Panam alternate body - moar threads
+- Judy Hair replacer Collection for Hyst's Judy Enhanced Body
+- Vehicular Annoyances Patch
+- No Default Equipped Weapon In Inventory
+- Locking Down Watson
+- Map LUT Begone
+- Ripperdoc Sogo Interior Changes
+- Bentley Continental GTS
+- Nova Optics (Vehicle Exposure Fix and Visuals Customization)
+- Zenitex Modular Assault Vest - ArchiveXL
+- Arasaka Sportswear Archive XL
+- Unique V Body Rig Framework - ArchiveXL
+- Zenitex Swimsuit - ArchiveXL
+- Zenitex Sleeveless Turtleneck - ArchiveXL
+- Zenitex Covert Leggings - ArchiveXL
+- Ray Traced Lighting Fixes
+- Damaged Blurry Windshield PT Fix
+- Totentanz - Chaos Reborn
+- Proxima's Prop Paradise
+- Talent Academy Enhanced
+- Lada VAZ 2105
+- Satellite Tower Apartment (in trailer park)
+- Yaiba Kusanagi CT3-Y Streetfighter
+- Lizzie's Bar Overhaul
+- Military Accessories - Balaclava Pack - ArchiveXL
+--The Nullifier
+
+#### Updated
+
+- CyberVision Reshade
+- CyberVisionENV
+- Immersive Night City Fixes - CORE
+- Not So Good Draw Distance Mod
+- Faster Vehicle Knockback Animation
+- Night city Aroused encounters assets FOMOD
+- Immersive E3 NC Fixes and Improvements
+- The Mildew Closet
+- Preem Scoots
+- Tottes Atelier Shop 2
+- Butchers Of Night City
+- Fire and Explosions Texture Overhaul
+- The RVC00N Dumpster 3 - PinkyDude's Virtual Atelier
+- DerniersMessages
+- Dead Air - An Evelyn Parker story
+- Stealthrunner - Stealth Gameplay Expansion
+- Trace Position Overhaul
+- Alt Cunningham Bustier for V
+- Better Flashlight
+- Law Enforcement Overhaul Improved
+- ReImagined
+- Night City Traffic Overhaul 2.10
+- Cyberware-EX
+- Codeware
+- Mini Cooper S 1965
+- Subaru WRX STI 2008
+- Porsche 911 RSR (2017)
+- Dodge Viper 1999
+- Ford Mustang Shelby GT500
+- Jaguar F-Type
+- Lexus SC300
+- Mazda MX-5 Miata
+- RedData
+- Aurore Romanced (Lady Marmalade)
+- PhotoMode-EX
+- Weather Switcher (Change Weather - Control Time - Customize Clouds)
+- Rita Wheeler Romanced
+- New Lifepath Intro - Fresh Start
+- Hotscenes - play Cyberpunk Joytoy sex scenes with your favorite characters
+- Immersive Rippers
+- Photomode Tweaks
+- River Romanced Enhanced
+- Idle Anywhere
+- Kerry Romanced Enhanced
+- Tactical Style Outfit Pt3
+- CCXL Manon Hair Half-Updo Braids (Both V)
+- Apartment Cats - Corpo Plaza
+- Apartment Cats - The Glen
+- Apartment Cats - Japantown
+- Veegee Jewelry Pt3
+- Watch Your Back
+- Phoebe Clothing line Store
+- Night City Enhanced and Expanded - NPCs
+- Quadra Turbo-Z
+- Disable Fake Lights with Path Tracing
+- Non-Canon Romances Enhanced
+- Romance Hangouts Enhanced
+- TLS Virtual Atelier
+- Sanchez Virtual Boutique
+- ArchiveXL
+- KMKC's - Virtual Atelier
+- M50 Military Gas Mask - ArchiveXL
+- Factions Evolved 2.10
+- Mayo - Lace Trim Denim Shorts
+- SPLAT Physics Realistic Ragdoll Overhaul
+- Immersive Night City Fixes
+- Deceptious Bug Fixes
+- Native Settings UI Side Menu Add-on
+- Reference Path Tracing
+- Always First Equip
+- Improved Vehicle Lights Draw Distance
+- Sleeves
+- Dusty Virtual Atelier
+- VEEGEE SHOP 3
+- KiasuBurger Cyberware Core
+- Night City Enhanced and Expanded - NPCs - FR Translation
+- Yusei's Virtual Atelier
+- They Will Remember - FR Translation
+- Misc NC Fixes
+- Zenitex Core Dependency
+- They Will Remember
+- FlowerShop - Virtual Atelier Store
+- General Shadows Fixes
+- Virtual Atelier
+- NC Fashion Virtual Atelier
+- Virtual Car Dealer
+- VOIDWEAR Virtual Atelier
+- Tac Threads Atelier
+- Lizzie's Braindances
+- Lizzie's Braindances Language Pack
+- Sabbath7991 Weapon and Attachment Shops - Virtual Atelier
+
+#### Removed
+
+- ENV Tuner
+- Misty New Hair
+- Fog Remover
+- Night City Visual Nulled
+- Nova Population
+- Judy Enhanced Body 
+- Panam Enhanced Body 
+- Judy Custom Outfit
+- Panam Custom Outfit
+- Unique V Body Frameworkµ
+- Totentanz Enhanced
+
+---
+
+### Tweaks & Presets
+
+- Shift camera adjustments
+- All profiles load order updated
+
+
+-------------------------------------------------------------------------------------------------
+
 
 ## [2.0.0] - Update
 
