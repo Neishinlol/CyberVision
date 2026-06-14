@@ -4,6 +4,112 @@ All notable changes to this project are documented in this file.
 For quick summaries, see Discord and Nexus.  
 This file serves as the main and complete source of truth.
 
+
+## [2.2.0] - Update
+
+### General Changes
+
+- Very big Optimisation and Crashfix update.
+
+Update & Fix :
+
+- Random Crashing Fixed,
+- Removed tons of custom hair making crashs,
+- Most of Reload crash fixed,
+- Remove and tweaks some mods to fix crash on reload.
+- Fix PL Hidedout.
+
+### Important
+
+⚠️ Before updating, make sure to back up your `UserSettings.json` to avoid rebinding everything.  
+- Path: `CyberVision → Profiles → Selected profile → UserSettings.json`
+
+⚠️ The game may crash the first time you reload your save due to the new changes.  
+- If it crashes, it should only happen once.
+
+⚠️ Since the Rework of V Body some outfit may crash on Preview, please track crashing outfits and post it on Discord.
+
+⚠️ Lot of New outfits in this Update are requirement for some NPC change, they are disabled in Virtual Atelier for now,
+If you want to wear it yourself, its gonna be with codes.
+
+⚠️ If you get bald after updating, go the the mirror or ripperdock to change your hairstyle.
+
+⚠️ Save friendly if updating from version 2.1.  
+- Require a new save if updating before 2.1.
+
+---
+
+### Mod Updates, New Mods & Swaps
+
+#### Added
+
+- Watsons NeonRow
+- Satellite Tower Apartment (in trailer park)
+- HUD Fixes - fix disappearing HUD element and quest dialogs
+- Zenitex Caiman Ballistic Helmet - ArchiveXL
+- Zenitex Assault Helmet - ArchiveXL
+- Nissan Skyline R34 V-Spec II - ArchiveXL
+
+#### Updated
+
+- Stealthrunner - Stealth Gameplay Expansion
+- Improved Distant Shadows (Volumetric Fog Leaking Fixed)
+- I Really Want To Stay At Your House - Judy
+- I Really Want To Stay At Your House - Panam
+- SPLAT Physics Realistic Ragdoll Overhaul
+- Sanchez Virtual Boutique
+- Zenitex Core Dependency
+- General Shadows Fixes
+- Manavortex Atelier Store
+- The Nullifier
+- Non-Canon Romances Enhanced
+- Tac Threads Atelier
+- Romance Hangouts Enhanced
+- NCPD Vehicles 2.0
+- Modular Military Mask - ArchiveXL
+- KMKC's - Virtual Atelier
+- Virtual Atelier
+- Lizzie's Braindances
+- Lizzie's Braindances Language Pack
+- Native Settings UI Side Menu Add-on
+- Limited HUD
+- Lizzie's Bar Overhaul
+- Hotscenes - play Cyberpunk Joytoy sex scenes with your favorite characters
+- LeeHan2 - pose pack 2
+- LeeHan2 - pose pack 3
+- Zenitex Military Combat Gloves - ArchiveXL
+- Yusei's Virtual Atelier
+- Sabbath7991 Weapon and Attachment Shops - Virtual Atelier
+- Player Body Cyberware Injector
+- Vehicular Annoyances Patch
+- Dynamic Downforce
+- They Will Remember
+- HeRa Masc Atelier Store
+- Impoverished Santo Domingo Apartment
+- LeeHan2 - pose pack 5
+- LeeHan2 - pose pack 6
+- LeeHan2 - pose pack 7
+- NC Fashion Virtual Atelier
+- Mayo - Tight Jeans XL - Overhaul Soon
+
+#### Removed
+
+- Tons of custom hair.
+- BETA-- CYBERPSYCHO ENCOUNTERS
+- SPLAT Physics Realistic Ragdoll Overhaul
+- Reference Path Tracing
+
+---
+
+### Tweaks & Presets
+
+- Shift camera adjustments
+- All profiles load order updated
+
+⚠️ Refer to the **#infos channel** for updated settings & profiles.
+
+-----------------------------------------------------------------------------------------------------------
+
 ## [2.1.0] - Update
 
 ### General Changes
