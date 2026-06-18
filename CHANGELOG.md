@@ -4,6 +4,123 @@ All notable changes to this project are documented in this file.
 For quick summaries, see Discord and Nexus.  
 This file serves as the main and complete source of truth.
 
+## [2.2.1] - Update
+
+### General Changes
+
+- Optimisation / Hotfix / New mods.
+
+Update & Fix :
+
+- Fix aggro from NCPD,
+- Fix Enemies untargetable,
+- Fix more crashs,
+- Fix Stutter related to NPC mods,
+- Fix sound bug arround the map,
+- Judy Remade,
+- Panam Remade,
+- Misty Remade,
+- removed dead mods from Newus.
+
+Swap : 
+
+-  Realistic Traffic Density to Very High profiles,
+-  Nova Population to Ultra profiles.
+
+Mods and Profiles Settings :
+
+- All load order have been remade,
+- All mod settings have been remade,
+- 12 Profiles settings have been remade.
+
+### Important
+
+⚠️ Before updating, make sure to back up your `UserSettings.json` to avoid rebinding everything.
+- Path: `CyberVision → Profiles → Selected profile → UserSettings.json`
+
+⚠️ The game may crash the first time you reload your save due to the new changes.
+- If it crashes, it should only happen once.
+
+⚠️ Since the Rework of V Body some outfit may crash on Preview, please track crashing outfits and post it on Discord.
+
+⚠️ If you get bald after updating, go the the mirror or ripperdock to change your hairstyle.
+
+⚠️ Save friendly if updating from version 2.1.
+- Require a new save if updating before 2.1.
+
+---
+
+### Mod Updates, New Mods & Swaps
+
+
+#### Added
+
+- H10 Apartment E3 Advertisements
+- Alternative Clothes for Panam Body Enhanced
+- Misty Hair Replacer
+- Panam Body Enhanced 2.2
+- More Alternate Clothes for Judy Enhanced Body and Vanilla Body
+- Judy Enhanced Body with 4K Texture
+- Elite Screens (Ads - Holo)
+- Ultra plus 9.0.4
+- Rita Post-Romance Messages Addon
+- Meredith Stout Romance Addon ( soon patched for Meredith Redesign )
+
+#### Updated
+
+- KiasuBurger Cyberware Core
+- Yusei's Virtual Atelier
+- Mayo Virtual Atelier
+- Virtual Atelier
+- 
+#### Removed
+
+- Fighting Gangs Allowed - Reasonable Police
+- Misty - redesign. Goth Edition
+- Curvy Misty Olszewski
+- Misty Phantom Liberty addon
+- Judy Hair replacer Collection for Hyst's Judy Enhanced Body
+- Judy - Project Osiris
+- Panam alternate body - moar threads
+- Panam alternate body
+- Panam alternate body - dynamic appearances
+- Judy's Moar New Threads
+- Panam's Moar New Threads
+- Non-Hideable Hud Removal
+- Law Enforcement Overhaul
+- Law Enforcement Overhaul Reset (Spawn Compatibility - MaxTac Rebalanced - Fleet Expansion)
+- Law Enforcement Overhaul Reset - Fleet Expansion
+- NCPD and MaxTac Spawn Tweak (District specific police behavior)
+- Law Enforcement Overhaul Improved
+- Factions Evolved Law Enforcement Overhaul
+- Character Lighting Fix
+- Vehicle Interior Lighting Fix 
+- AudioFix
+- Sit Anywhere - Immersive FPP Camera 2.01 Look up to the limit
+- Register all Fast Travel Points
+- Corpse Loot Fix
+- Depth Begone
+- Little China - Store Windows Fixed
+- A New Dawn Beyond Night City - WIP
+- LeeHan2 - pose pack 1 (F)
+- Megabuilding 8 Expanded ( with Apartments )
+- Night City Enhanced and Expanded - NPCs
+- Night City Enhanced and Expanded - NPCs - FR Translation
+- Not So Good Draw Distance Mod
+- Proxima's Apartment Emporium
+
+---
+
+### Tweaks & Presets
+
+- Shift camera full Rework,
+- All load order have been remade,
+- All mod settings have been remade,
+- 12 Profiles settings have been remade.
+
+⚠️ Refer to the **#infos channel** for updated settings & profiles.
+
+-----------------------------------------------------------------------------------------------------
 
 ## [2.2.0] - Update
 
