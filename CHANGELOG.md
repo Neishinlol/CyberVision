@@ -4,6 +4,106 @@ All notable changes to this project are documented in this file.
 For quick summaries, see Discord and Nexus.  
 This file serves as the main and complete source of truth.
 
+
+## [2.3.0b] - Update
+
+### General Changes
+
+- Update / Tweaks / New mods
+
+Update & Tweaks :
+
+- 0 - Engine testing for more performances.
+- Updates mods.
+
+New combat mods 
+
+- Combat Evolved Added,
+- Enemy Rarity Fixes,
+- Make the game harder overhaul, need feedbacks.
+
+Swap : 
+
+- Realistic Traffic Density to Ultra profile again. 
+- Nova Population removed causing Freezes.
+
+### Important
+
+⚠️  WABBAJACK MAIN PAGE USERS : 
+→ If you wish to try Beta Test Builds, Grab the WabbaFile on the Nexus CyberVision Modpage.
+
+⚠️ Before updating, make sure to back up your `UserSettings.json` to avoid rebinding everything.
+- Path: `CyberVision → Profiles → Selected profile → UserSettings.json`
+
+⚠️ The game may crash the first time you reload your save due to the new changes.
+- If it crashes, it should only happen once.
+
+⚠️ Since the Rework of V Body some outfit may crash on Preview, please track crashing outfits and post it on Discord.
+
+⚠️ Save friendly if updating from version 2.1.
+- Require a new save if updating before 2.1.
+
+---
+
+### Mod Updates, New Mods & Swaps
+
+
+#### Added
+
+- Alex Romanced
+- Aston Martin DBS Superleggera
+- DigitalVixen Core
+- 0 - Engine Immersive Meditations - Unmarked Locations
+- 0 - Engine Go On A Date (Panam)
+- 0-Engine
+- Redscript Configuration Framework
+- All Guns Are Cool
+- Enemy Rarity Fixes
+- Combat Evolved
+- Gunsensical plus Sabbath equals love
+
+#### Updated
+
+- Better Flashlight
+- Hyst Atelier 
+- Lizzie BrainDance 
+- Lizzie BrainDance Language pack 
+- Sabbath7991 Weapon and Attachment Shops - Virtual Atelier
+- Modular Military Accessories Pack 1 - ArchiveXL
+- Tac Threads Atelier
+- Virtual Atelier
+- Hotscenes - play Cyberpunk Joytoy sex scenes with your favorite characters
+- Dusty Virtual Atelier
+- Better Eye Shadow Mask
+- They Will Remember
+- KMKC's - Virtual Atelier
+- Non-Canon Romances Enhanced
+- I Really Want To Stay At Your House - Panam
+- Rita Wheeler Romanced
+- Zenitex Core Dependency
+- Reinforcements System Delayed
+- Meredith Stout Romance Addon
+- Reinforcements System
+
+#### Removed
+
+- Enemies Dodging Fix
+- Reinforcements System - Infinite combat loop fix
+- Reinforcements System (FR)
+- Nova population ( Freeze the game in very dense Area's )
+
+---
+
+### Tweaks & Presets
+
+- Shift Car / Bike effect added,
+- Shift Car Guns preset tweaked,
+- 12 Profiles settings / LO adjusted.
+
+⚠️ Refer to the **#infos channel** for updated settings & profiles.
+
+_____________________________________________________________________________________________
+
 ## [2.2.1] - Update
 
 ### General Changes
