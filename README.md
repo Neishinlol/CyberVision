@@ -32,7 +32,7 @@ Before installing CyberVision, complete the following steps:
 
 ### **Official Game Content**
 - Make sure your game is clean and updated  
-- Launch once to initialize REDmod ( Steam users need to download Cyberpunk 2077 REDmod before )
+- Launch once in vanilla to Disable Redmod in the launcher.
 
 ### **Steam Overlay**
 - Disable Steam overlay globally or just for Cyberpunk to avoid crashes:  
@@ -59,10 +59,11 @@ Larger modlists require significant memory. Regardless of RAM/VRAM, this step is
 ---
 
 ## 🛠 Installation
-1. Delete all Cyberpunk data  
-2. Launch once to activate REDmod  
+1. Delete all Cyberpunk data,  
+2. Do a cleran installation,
+3. Launch the launcher and disable mods in it,
 3. Install CyberVision via Wabbajack  
-4. Select MO2 profile (12 profiles: 6 English, 6 French)  
+4. Select MO2 profile (8 profiles: 4 English, 4 French)  
 
 For **setup instructions, configuration details, and troubleshooting**, check the **CyberVision Discord section**: [Discord Link](https://discord.com/invite/WSFgf5S7wS)
 
@@ -71,16 +72,12 @@ For **setup instructions, configuration details, and troubleshooting**, check th
 ## 🎮 Profiles & Settings
 - 01 - RASTER & RT Standard - RTX 3070 RX 6700 XT 
 - 02 - RASTER & RT Very High - RTX 4070 RX 9070 XT
-- 03 - RASTER & RT Ultra - RTX 4090 RX 7900 XTX 
-- 04 - PATH TRACING Standard - RTX 4070 TI RX 9070 XT 
-- 05 - PATH TRACING Very High - RTX 5070 TI
-- 06 - PATH TRACING Ultra - RTX 4090 
-- 07 - FR - RASTER & RT Standard - RTX 3070 RX 6700 XT 
-- 08 - FR - RASTER & RT Very High - RTX 4070 RX 9070 XT
-- 09 - FR - RASTER & RT Ultra - RTX 4090 RX 7900 XTX
-- 10 - FR - PATH TRACING Standard - RTX 4070 TI RX 9070 XT
-- 11 - FR - PATH TRACING Very High - RTX 5070 TI
-- 12 - FR - PATH TRACING Ultra - RTX 4090
+- 03 - PATH TRACING Standard - RTX 4070 TI RX 9070 XT 
+- 04 - PATH TRACING Very High - RTX 5070 TI
+- 05 - FR - RASTER & RT Standard - RTX 3070 RX 6700 XT 
+- 06 - FR - RASTER & RT Very High - RTX 4070 RX 9070 XT
+- 07 - FR - PATH TRACING Standard - RTX 4070 TI RX 9070 XT
+- 08 - FR - PATH TRACING Very High - RTX 5070 TI
 
 ---
 
