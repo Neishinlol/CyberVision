@@ -5,6 +5,165 @@ For quick summaries, see Discord and Nexus.
 This file serves as the main and complete source of truth.
 
 
+## [3.0.1] - Update @everyone
+
+
+### General Changes
+
+
+### Return of car distribution : 
+
+#### Car Distribution set up by profiles, 
+
+- Standard profiles -> Loreful Modded Traffic,
+- Very High profiles -> Factions Evolved Base + addons, 
+- Ultimate Ultra -> Merge of both car distributions.
+
+
+### Stability & Fix : 
+
+#### Fixed every crashs possible again,
+
+- CET Key is F1,
+- Car distribution is 100% stable,
+- Crash on reload fighting gangs and NCPD ficed,
+- Fix invisible weapons from Sabbath,
+- Fix Fem V outfits tits clipping ( finally ! ),
+- Fix some rasio bein way to loud.
+
+
+### Gameplay Change : 
+
+#### Combat system tweaks.
+
+- Fix throwable weapons bein too strong,,
+- Reduce damages of headshots from 500% to 300%,
+- Change behavior of police and gangs condition for aggro and fight.
+
+
+### Important
+
+⚠️ READ THE #INFOS CHANNEL IN DISCROD 
+- Redone and lot of new stuffs to read.
+
+⚠️ DISABLE REDMOD : 
+- For this beta and next updates, you'll need to launch the Vanilla launcher of Cyberpunk and untick Enable Mods 
+
+⚠️ Set difficulty to standard
+- The game is balanced arround this difficulty now.
+
+⚠️ NEW GAME HIGHLY RECOMMANDED
+- Its actually required.
+
+---
+
+### Mod Updates, New Mods & Swaps
+
+#### Added
+
+- Loreful Modded Traffic
+- Factions Evolved Base
+- Factions Evolved Gang VS Gang
+- Factions Evolved Law Enforcement Overhaul
+- Factions Evolved Ultra Merged
+- Factions Evolved - Claim Vehicles
+- '67 Chevrolet Impala
+- C-West Kit - Nissan Skyline GT-R R34
+- 2003 Mini Cooper S R53
+- 95' McLaren F1
+- ASAP Rocky's 190E
+- Baronz Chair
+- Border Patrol Vehicle Pack
+- Cortes V6000 NCPD Overlord Sheriff Edition
+- Chevillon Emperor - ArchiveXL
+- Death Race Vehicle Pack
+- Lamborghini Countach K.S Edition
+- Makigai Maimai E130 'Napoleon' Patrol Cars
+- MaxTac Vehicle Pack
+- Mercedes-Benz 190E W201
+- Porsche 911 Cabriolet Colors
+- Porsche 911 Collection
+- Prevention Unit Vehicle Pack
+- Tanishi 6x6 Ratrod
+- Thorton Merrimac Necromancer
+- Trophy Tanishi
+- Vehicle Pack - Corpo
+- Vehicle Pack - Utility
+- Vehicle Pack - Gangs
+- 1911 - Sally and Mustang
+- Suppressor Pack
+- Trigger Mode Control
+- Ghost Grudge from RE9
+- M232 from RE9
+- Alligator Snapper from RE9
+- Requiem Revolver from RE9
+- Colt Python (.357 Magnum)
+- Pistol Pack 3
+- Pistol Pack
+- Pistol Pack 5
+- 0 - Engine Rent a Motel
+
+#### Updated
+
+- CyberVisionENV
+- KMKC's - Virtual Atelier
+- Meredith Stout Romance Addon
+- Particles Flickering Fix
+- 8ug8ear Romance Next Chapter
+- Honda S2000
+- Nissan 350Z
+- Nissan Skyline R33
+- Toyota Supra
+- Lamborghini Murcielago SV
+- Nissan Skyline R32
+- Mitsubishi Lancer Evo 9
+- Nissan Skyline 2000GT-R
+- Ducati 916
+- Lotus Esprit Turbo
+- Mitsubishi Eclipse GSX (1999)
+- Mazda MX-5 Miata
+- Audi R8 V10+
+- Nissan Silvia S15
+- Aprilia RS660
+- Chevrolet Camaro SS JL4
+- Honda CRX Mugen
+- Ducati Supersport
+- Ducati 916 - ArchiveXL
+- Toyota GT86
+- Top Secret V12 Supra
+- V For Vibrant
+- Gunsensical - More headshot damage
+- Pistol Pack 2
+- Pistol Pack 4
+- Yusei's Virtual Atelier
+- Silent Silencers and Throwing Knives
+- Melee Attacks Fixes And Enhancements
+- Hotscenes - play Cyberpunk Joytoy sex scenes with your favorite characters
+
+#### Removed
+
+- Better Throwing Knives and Weapons - Redscript
+- Vehicle Interior RT and Mirrors
+- Sabbath7991 Weapon and Attachment Shops - Virtual Atelier
+- Someone Call NCPD
+- Speedometer Fixes
+
+
+--- @everyone
+
+⚠️ Refer to the **#infos channel** for updated settings & profiles.
+
+https://www.nexusmods.com/cyberpunk2077/mods/27691
+
+❤️ If you want to support my work, buy me a coffee.
+
+https://www.patreon.com/c/Neishin
+
+
+
+______________________________________________________________________________
+
+
 
 ## [3.0.0] - Update @everyone
 
