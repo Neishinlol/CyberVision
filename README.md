@@ -56,6 +56,8 @@ Larger modlists require significant memory. Regardless of RAM/VRAM, this step is
 ### **NVIDIA Users - Shader Cache**
 - NVIDIA Control Panel → Manage 3D Settings → Shader Cache Size → Set to **10 GB** → Apply  
 
+## **NO HDR SUPPORT**
+
 ---
 
 ## 🛠 Installation
