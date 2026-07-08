@@ -22,15 +22,15 @@
     "links": {
       "image": "https://i.ibb.co/99DKNCwt/Cybervision.jpg",
       "readme": "https://github.com/Neishinlol/CyberVision/blob/main/README.md",
-      "download": "https://authored-files.wabbajack.org/CyberVision.wabbajack_2cd2daa9-527a-471e-8156-18971b6459f8",
+      "download": "https://authored-files.wabbajack.org/CyberVision.wabbajack_da37d73a-6a4d-4475-8793-2bb932401a0d",
       "machineURL": "NeishinCyberVision",
       "discordURL": "https://discord.com/invite/WSFgf5S7wS",
       "websiteURL": "https://www.nexusmods.com/cyberpunk2077/mods/27691",
       "nexusCollection": null
     },
     "download_metadata": {
-      "Hash": "SmSjHIBjn50=",
-      "Size": 7747930,
+      "Hash": "oeCZgMMWsyI=",
+      "Size": 7747979,
       "NumberOfArchives": 1844,
       "SizeOfArchives": 82484519469,
       "NumberOfInstalledFiles": 14257,
@@ -39,7 +39,7 @@
     },
     "version": "3.0.1",
     "dateCreated": "1970-01-01T00:00:00Z",
-    "dateUpdated": "2026-07-08T20:39:09.6235851Z",
+    "dateUpdated": "2026-07-08T20:40:05.0098355Z",
     "repositoryName": ""
   }
 ]
