@@ -5,6 +5,205 @@ For quick summaries, see Discord and Nexus.
 This file serves as the main and complete source of truth.
 
 
+
+## [3.1.0] - Update @everyone
+
+
+### General Changes
+
+
+### Car Distribution : 
+
+#### Set as optional in custom MO2 Separator disabled by default,
+
+- Optional, disabled by default,
+- Pick the one you need by profiles,
+- Standard Car Distribution,
+- Very High Car Distribution,
+- Ultimate Ultra Car Distribution,
+- Some users crashs, some others Don't, try it yourself.
+
+
+### Stability & Fix : 
+
+#### Fixed every crashs possible again,
+
+- Launch time is faster,
+- Fixed photomode UI,
+- Remove rundondant mods,
+- Remove TDO causing freezes,
+- Fix Weathers Transitions time,
+- fix Car modification bug pass though the map,
+- Remove Enemy Rarity Fixes Improved causing Freezes,
+- Removed Decals Flickering Fix causing huge stutters,
+- Remove tunning parts on yellingintothevoid cars fix crash on car distrib,
+- Fix DerniersMessages / Dead Air An Eveylin Parker Story not having sound,
+- Revert to older version of Watsons NeonRow less impactfull on performaces,
+- They Will remember is gone, dupplicate function and make crash on reload to our modlist.
+- Removed separator : AMD Path Tracing Fix, follow tutorial made by Golden Dicks in Discord channel : AMD Users Utilisateurs.
+
+
+### Gameplay Change : 
+
+#### Combat system tweaks.
+
+- Fix throwable weapons bein too strong,
+- Swap Dark future to Dark Future Core,
+- Tweaked values of Cyber Enemies,
+- Swapped Gunsensical for Gunsensical Reloaded,
+- Reduce damages of headshots from 500 % to 150 %,
+- Return of Fighthing Gang Allowed but fixed and tweaked,
+- Tweaked ME Armor System to be less Hardcore on elites enemies,
+- Change behavior of police and gangs condition for aggro and fight.
+- Swap : AI Trigger Overhaul / Enemy aggro Improvements / More vigilant enemies / Silent Silencers / Improve Shooting AI for Much Better AI.
+
+
+### Important
+
+⚠️ READ THE #INFOS CHANNEL IN DISCROD 
+- Redone and lot of new stuffs to read.
+
+⚠️ DISABLE REDMOD : 
+- For this beta and next updates, you'll need to launch the Vanilla launcher of Cyberpunk and untick Enable Mods 
+
+⚠️ Set difficulty to standard
+- The game is balanced arround this difficulty now.
+
+⚠️ NEW GAME Required if your save is before 3.0.0,
+- Save Friendly if save is from 3.0.0 or after.
+
+
+---
+
+
+### Mod Updates, New Mods & Swaps
+
+#### Added
+
+- Standard - Car Distribution
+- Very High - Car Distribution
+- Ultimate Ultra - Car Distribution
+- Dark Future Core
+- Much Better AI
+- Fighting Gangs Allowed - Reasonable Police ( Tweaked )
+- Consumable Animations
+- InplaceSectorsNulled
+- Throttled Activity Log
+- 3D World Map Fixed
+- Adam Finlay Hidden Gem Quest Recovery
+- Bolt Shot FX Reset Fix
+- Bounty class stars fix
+- Brick Columbarium Fix
+- Senkoh LX Bolt Fix
+- Bug Fix - Recon Grenade Bouce Fix
+- Buzzsaw VFX Fix
+- Disable W-S Keys For Select Dialogue Options (Patch 2.3 Compatible)
+- Enemies Dodging Fix
+- Epistrophy Delamain Despawn Fix
+- FinishedQuestsSorted-1.01
+- FirstEquipFix
+- Fluff Vendor Fixes
+- Immersion Patch - Holdin' On - Kerrys' mansion scene bug fixes
+- Immersion Patch - Waiting for Dodger Quest Fixes
+- Immersion Patch - Path Of Glory - Afterlife scene bug fixes
+- Item Records Fixes
+- Judy's Cone Lights No More
+- Leaky Interiors Fixed
+- Loot Quantity Text (2.31 Supported)
+- Malorian Silverhand - Attachment fix
+- Microblend Fix
+- NCPD Fixes
+- Passenger Targeting Fix
+- Quickhack Fixes
+- Quickhack Fixes - FR Translation
+- Rasetsu screens bug fix
+- Second Heart Fix
+- Smart Gun Lock Speed Fixes
+- Stats Bar UI Fix
+- Contacts Redux - Live Online Status Indicators
+- Crosshair simple redone
+- Compact Weapon Mod Slots - Better UI for Extra Attachments
+- HQ Fast Food
+- HQ Food - Fries - Better Quality Models and Textures
+- Classic Cigarettes (HD Textures and Meshes Replacer)
+- HQ Fruits
+- HQ Sushi
+- Blood Puddles - EGGHANCED
+- Breach Protocol - Personal Link Animations Patch
+- Gunsensical Reloaded
+- Immersion Patch - Minor Activities Quest Fixes
+- Immersion Patch - Cyberpunk Story Quest Fixes
+- DDS Camo Microblends
+- Leon's Requiem Outfit - Fem Masc V (ArchiveXL)
+- Quadra Turbo K.S Edition - RTX Shadow Fix
+- Quadra V10 Unbound - Enhanced Driving Dynamics
+- Judy Conversations Addon
+- Go on a Date (Judy) - Side romance activity
+
+
+#### Updated
+
+- Night City Traffic Overhaul 2.10
+- V Voice Framework
+- Load Begone
+- Sanchez Virtual Boutique
+- Santiago's Jacket - Fem Masc V (ArchiveXL)
+- Ripper Pants and Belt - Fem Masc V (ArchiveXL)
+- Bomber Jackets - Fem Masc V (ArchiveXL)
+- raem's Atelier Store
+- Tottes Atelier Shop 2
+- KMKC's - Virtual Atelier
+- BrowserExtensionFramework
+- Watsons NeonRow
+- NC Fashion Virtual Atelier
+- Lizzie's Braindances Language Pack
+- FlowerShop - Virtual Atelier Store
+- Yusei's Virtual Atelier
+- Lizzie's Braindances
+- Hyst Atelier Store - Virtual Atelier
+- Car Modification Shop
+- DerniersMessages
+- Dead Air - An Evelyn Parker story
+- Japantown North Verticality Expanded
+- Meredith Stout Romance Addon
+
+
+#### Removed
+
+- Dark Future Complete Edition
+- They Will Remember
+- No More Out-Leveling Vendor Items
+- Advanced Control Regained
+- More Cautious enemies
+- Fire and Explosions Texture Overhaul
+- Smoke Texture Overhaul
+- Gunsensical
+- Gunsensical - More headshot damage
+- AI Trigger Overhaul - More Perceptive NPCs
+- Enemy Aggro Improvements
+- Silent Silencers and Throwing Knives
+- More Vigilant Enemies
+- Immersive Shooting AI
+- Enemy Rarity Fixes Improved
+- Decals Flickering Fix
+- Disappearing Enemy Health Bar Fix
+- Persistent CrystalCoat 2.0
+- Personal Mechanics - Car Modification Shop Extended
+
+--- @everyone
+
+⚠️ Refer to the **#infos channel** for updated settings & profiles.
+
+https://www.nexusmods.com/cyberpunk2077/mods/27691
+
+❤️ If you want to support my work, buy me a coffee.
+
+https://www.patreon.com/c/Neishin
+
+
+________________________________________________________________________________
+
+
 ## [3.0.1] - Update @everyone
 
 
