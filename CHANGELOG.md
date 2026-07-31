@@ -4,7 +4,227 @@ All notable changes to this project are documented in this file.
 For quick summaries, see Discord and Nexus.  
 This file serves as the main and complete source of truth.
 
+## [3.1.1] - Update @everyone
 
+### General Changes
+
+#### New Discord Channel: having-crash-check-this-first
+
+- Before asking for help with a crash, check this channel first,
+- The modlist is crash-free if you follow this channel,
+- Every setting, mod setting, and graphics setting is explained,
+- If you still crash, post a ticket in the #support channel.
+
+#### Cleaned most .log warnings
+
+- Pacifica Typhoon error fixed,
+- Further Félonies Bounty Placide syntax fixed,
+- Excruciator fixed,
+- All cars with errors in logs removed,
+- All iconic weapon syntax errors fixed,
+- Crash during the quest Somewhat Damaged fixed,
+- Fixed Redscript entry for hundreds of outfit mods,
+- Fixed syntax errors for hundreds of Quest/Location/Fix mods,
+- Fixed YAML car distribution entry for Badlands (thanks SkepticcalSmo1).
+
+#### Graphics and Environment tweaks
+
+- Nights and interiors are less dark and more colorful,
+- Fixed the ugly 45-second visual during weather transitions,
+- Removed water surfaces during Sunny/Light Cloud/Cloudy weather,
+- Fixed overbright light sources during Sunny/Light Cloud/Cloudy weather,
+- Changed fog at night for Sunny/Light Cloud/Cloudy/Heavy Clouds weather.
+
+#### Fixes and tweaks
+
+- Fixed Photo Mode crashes,
+- Tweaked some camera presets,
+- You can now skip braindances (finally),
+- Fixed camera going haywire in the passenger seat,
+- Fixed V's shadow in Path Tracing (hand shadow),
+- Tweaked how often V speaks during activities,
+- NSGDD swapped from Ultimate Ultra to Very High,
+- Fixed jumping behind cops and killing them automatically,
+- Fixed major NPCs randomly changing appearance,
+- Fixed the third-person car camera's overly slow speed effect,
+- Dialogue options now 100% accurately reflect what V will say,
+- Realistic Traffic Density swapped from Very High to Ultimate Ultra,
+- Car distribution should now be far more stable than before — feedback welcome,
+- Fixed stuttering caused by Not So Good Draw Distance (it was the Interior option),
+- You can no longer die during Johnny's flashback (unless you're really, really bad at the game xd),
+- Fixed being unable to steal modded cars you had already stolen and sold at the Virtual Atelier.
+
+#### NPC AI and feature edits
+
+- Boss shield regen nerfed by about 75%,
+- Aegis defensive ability cooldown increased from 30 to 60 seconds, duration reduced from 30 to 10 seconds,
+- Blood Pump ability cooldown increased from 30 to 100 seconds, instant heal reduced from 50% to 20% HP,
+- Flash Step cooldown increased from 15 to 30 seconds,
+- Pain Editor cooldown increased from 30 to 45 seconds, duration reduced from 30 to 10 seconds, damage reduction lowered from 80% to 50%,
+- Fixed some bosses and tougher enemies regenerating health too quickly (Rhino),
+- Disabled Phoenix Protocol pending a nerf from the mod author,
+- Radar ability range reduced from 28 meters to 10 meters,
+- Disabled Radar Scrambler — not a fan of the feature,
+- Reduced HP regen for all enemies by 50%,
+- Disabled Apogee from TDO pending a fix from the mod author.
+
+### Important
+
+⚠️ READ THE #INFOS CHANNEL ON DISCORD
+- Reorganized, with plenty of new information to read.
+
+⚠️ GAME CRASHES AFTER LOADING A SAVE OR STARTING FRESH FOLLOWING ANY UPDATE OR INSTALLATION OF THE MODLIST
+- Before creating your character, load a random save first and restart the game.
+
+⚠️ DISABLE REDMOD
+- For this beta and upcoming updates, launch the game via the vanilla Cyberpunk launcher and untick "Enable Mods."
+
+⚠️ Set difficulty to Standard
+- The game is now balanced around this difficulty.
+
+⚠️ NEW GAME required if your save is from before 3.0.0,
+- Saves from 3.0.0 or later are safe to continue.
+
+---
+
+### Mod Updates, New Mods & Swaps
+
+#### Added
+
+- Licks Club (NSFW separator)
+- Judyheart – Judy Alvarez X Shadowheart
+- eXed BDs – early SKIP button on quest BDs
+- Hanako Hand Cyberware for Masc and Fem V
+- Allow Highest AI LOD
+- NPC Actions Stutter Fix
+- Fixed NPC Vehicle Reactions
+- Japantown North Verticality Expanded
+- Ladders Improved
+- Citizens of Photomode
+- MMS from Judy
+- MMS from Panam
+- MMS from Jackie
+- MMS from Mama Welles
+- RedIMGRetriever
+- RedLogger
+- Explicit Dialogue
+- Nissan 350Z V2
+- Into the Depths
+- The Ransom
+- Romantic Hangout with So Mi
+- Possibilities
+- First Contact
+- Crossing the Divide
+- Cyber-Ghost
+- Undermine Quest Series
+- Explicit Dialogue
+- Law Enforcement Overhaul Reset
+- Equippable Vanilla Nails for Masc and Fem V
+- Immersive Third-Person Vehicle Camera – TPP Cam Toolkit
+- 2011 Pagani Zonda R – Full Carbon
+- eXed BDs – early SKIP button on quest BDs
+- Hanako Hand Cyberware for Masc and Fem V
+- Night City Immersive Debris
+- Improved Vegetation LODs
+- More Alternate Clothes for Judy Enhanced Body and Vanilla Body
+
+#### Updated
+
+- Very High – Car Distribution
+- Factions Evolved
+- Factions Evolved – Reinforcements Gang Vs Gang
+- Factions Evolved – Law Enforcement Overhaul Reset
+- ArchiveXL
+- DigitalVixen Core
+- Redscript Configuration Framework
+- Virtual Atelier
+- Much Better AI
+- Time Dilation Overhaul
+- Nissan Skyline R34 V-Spec II – ArchiveXL
+- Claim Vehicles
+- NC Fashion Virtual Atelier
+- Lizzie's Braindances Language Pack
+- NSGDD – Not So Good Draw Distance Mod
+- Time Dilation Overhaul
+- KiasuBurger Cyberware Core
+- Authentic Shift
+- Reset Attributes Always Available – Redscript
+- KiasuBurger Cyberware Core
+- Sanchez Virtual Boutique
+- Yusei's Virtual Atelier
+- Zenitex Core Dependency
+- Claim Vehicles
+- Judy Conversations Addon
+- Better Bike Animations
+- Dusty Virtual Atelier
+- Reset Attributes Always Available – Redscript
+
+#### Removed
+
+- HUMMER H1
+- McLaren P1
+- Albany Esperanto
+- Vehicle Pack – Corpo
+- Vehicle Pack – Gangs
+- Vehicle Pack – Utility
+- 1995 Nissan Skyline GT-R LM Nismo
+- Bugatti Chiron Profilée
+- Bugatti Tourbillon
+- Spyker C8 Preliator
+- Ford GT40 Mk1
+- Bentley Continental GTS
+- The Lone Wanderer's Stash
+- Nissan GT-R 'Lone Wanderer'
+- Chevrolet Ringbrothers Camaro Valkyrja
+- Porsche Taycan Turbo S
+- Aston Martin Valkyrie
+- Ford Mustang Legendary Customs
+- Lamborghini Countach Custom WideBody
+- Lamborghini Countach K.S Edition
+- Ford Hennessey VelociRaptor 6x6 (weaponized)
+- Nissan Fairlady Z S30
+- Porsche 911 Cabriolet Colors
+- Porsche 911 Collection
+- DeLorean DMC-12
+- DeLorean DMC-12 BTTF (Back to the Future)
+- Audi A8L Horch
+- Ferrari 488 Pista
+- Ducati Monster 1200
+- Dodge Charger SRT Hellcat
+- Chevrolet Corvette Sting Ray C2
+- Lamborghini Urus
+- Lamborghini Huracan STO
+- Sheng Noods Ramenshop
+- Aerial Takedown
+- Anti-Theft Measures
+- Hunted Down – Mini Quest
+- Hunted Down – Mini Quest – FR Translation
+- Watsons NeonRow
+- Misc NC Fixes
+- Misc NC Fixes Storm Channel Collision
+- Cyber Drift
+- Nola Dreamer Virtual Boutique Male
+- Bug Fix – Recon Grenade Bounce Fix
+- Immersion Patch – Minor Activities Quest Fixes
+- Immersion Patch – Cyberpunk Story Quest Fixes
+- Kiroshi Optics Night Vision Mod
+- Kiroshi Optics Night Vision Mod – FR
+- Dynamic Appearances Project – BETA
+- New Iconic Weapons and Cyberware – Atelier Store
+- Law Enforcement Overhaul Improved
+- Classic Cigarettes (HD Textures and Meshes Replacer)
+
+--- @everyone
+
+⚠️ Check the **#infos channel** for updated settings & profiles.
+
+https://www.nexusmods.com/cyberpunk2077/mods/27691
+
+❤️ If you'd like to support my work, buy me a coffee.
+
+https://www.patreon.com/c/Neishin
+
+______________________________________________________________________________________________________
 
 ## [3.1.0] - Update @everyone
 
