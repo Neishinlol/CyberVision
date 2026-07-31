@@ -4,7 +4,7 @@ All notable changes to this project are documented in this file.
 For quick summaries, see Discord and Nexus.  
 This file serves as the main and complete source of truth.
 
-## [3.1.1] - Update @everyone
+## [3.2.0] - Update @everyone
 
 ### General Changes
 
