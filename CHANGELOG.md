@@ -4,6 +4,477 @@ All notable changes to this project are documented in this file.
 For quick summaries, see Discord and Nexus.  
 This file serves as the main and complete source of truth.
 
+## [3.3.0] - Update @everyone
+
+### General Changes
+
+#### Rework of the #infos channel on discord : 
+
+- New instruction,
+- DLSS 5 Installation Instructions,
+- How to set up each mods if needed.
+- Guide how to properly install the modlist, 
+
+
+#### Rework of the entire MO2 setup : 
+
+- New color yay, 
+- New categories,
+- Everything is detailed and explained,
+
+
+#### Fixing and tweaking every log warning : 
+
+- All R6 conflicts are fixed,
+- All cars with errors in logs removed,
+- Thousands of log edits and modifications,
+- All possible R6 syntax errors fixed,
+- Car Distribution missing cars all rewritten,
+- Lots of .script / .Archive / .XL / .Yaml edited by myself,
+- All errors about : Error processing world sector are fixed,
+- A few warnings are left on purpose and won't harm your game.
+
+
+#### Visual and ENV changes : 
+
+- Now HDR Compatible,
+- Reshade made for HDR,
+- DLSS 5 Compatible, 
+- Reshade made for DLSS 5,
+- New lut, ngl the list is PEAK GRAPHIC, 
+- New Reshade and Reno Adjustment, more contrast, more red, more blue,
+- Change Fog / distant fog and lighting for Sunny / Light cloud / Cloudy weathers, 
+- Change Skydome color / Skylight / Fog color and shadow boost for Heavy Cloud, Rain, Fog.
+- Optional Ultra Plus have been removed, the modlist have tons of fixes and tweaks who gonna mess with Ultra plus, its too big and complete already, DO NOT USE ULTRA PLUS.
+
+
+#### Fixes, tweaks, QOL : 
+
+- Fix dialogue UI 
+- Outfits now have some stats,
+- Invulnerable NPCs are fixed, 
+- Enemies doing nothing is fixed,
+- Sprint getting stopped is fixed,
+- Fixed some NPC Photomode issues, 
+- Fix Sound issue in Jig Jig Street,
+- Items without stats now have stats, 
+- You can climb more or less anything now, 
+- You can equip quickhacks on your weapons,
+- No more aiming camera bug during shootouts, 
+- Way better feeling moving with V than before,
+- No more ugly V shadows ( hands particularly ),
+- Fixed Japantown area falling through the floor,
+- Fixed Dogtown stadium during Song So Mi ending,
+- Fixed freezing when aiming with perks using TDO,
+- Crash on reload are fckin gone ( atleast on me ),
+- Fixed glitched text when speaking other languages,
+- Performance overhaul should be better by about 20%,
+- Fix fog Flickering arround Misty shop and Lizzie's,
+- No more persistent driving effects out of vehicle, 
+- Dashing leading to bad controls / ice skating is fixed,
+- You can equip any type of scope and mods on your weapons,
+- Car Distribution is finally safe to use ( 99% sure about it ),
+- V's shadow is now accurate during activities, scenes, driving,
+- Fixed Japantown Judy appartment area falling though the floor,
+- Not a single crash on this playthough ( 34 hours, 41 minutes, 20 secs, yes i like prescision ),
+- No more pop-in elements while driving ( except at very high speed during nitrous consumption ),
+- Overhaul crashs have been fixed, it was caused by too much custom material randomly break the game,
+- All camera presets remade through Shift, new camera effects, new features and it's fixed ( thanks to CyanideX the boss ).
+
+
+#### Gameplay changes : 
+
+- Remove shield anti-Scan for enemies,
+- Remove Second heart ability's for enemies,
+- Remove the threat detection from enemies,
+- Increased boss abilities and damage,
+- Remove knockback features from shock damages,
+- Reduce blood pump about 20% for enemies,
+- Reduce the passive Healing from enemies by 20%
+- Reworked Driving, more smooth and better speed,
+- FPP camera now support Immersive FPP Camera style,
+- Armor is useful now and accurate with your chrome list,
+- Armor system has been fully reworked, no more armor limit,
+- Getting tracked while entering Dangerous areas has been removed,
+- Your chrome can be damaged and destroyed now, ripperdoc will love you,
+- Getting knocked by drones and losing your entire HP bar has been fixed,
+- No more Dark Future, no point in using that after all since we swapped to Light Edition because of stability, removed.
+- New car stealing system, enter, get the intel perk, crack the code, press Shift + F, crack the code again, succeed = it's yours.
+
+
+#### NPC changes :
+
+- Kerry is still Kerry but more Badass,
+- River, not a golem anymore, way more badass,
+- Meredith reworked to better match her vanilla appearance,
+- Panam has a new body and outfits, patched for braindances and scenes.
+- Johnny have been reworked, base and alternative appearace, Base is still Johnny but more closer to Keanu Reeves,
+- Johnny as Neo reworked to match Matrix 1 Neo model but with a beard, for Alternative Appearance in the gameplay settings of Cyberpunk 2077.
+- I love Judy Shadowheart but yeah, it's out of place, Judy has a new head, body shape matching her default, outfits, appearance but way better,
+
+
+### Important
+
+⚠️ READ THE #INFOS CHANNEL ON DISCORD
+- Reorganized, with plenty of new information to read.
+
+⚠️ GAME CRASHES AFTER LOADING A SAVE OR STARTING FRESH FOLLOWING ANY UPDATE OR INSTALLATION OF THE MODLIST
+- Before creating your character, load a random save first and restart the game.
+
+⚠️ DISABLE REDMOD
+- For this beta and upcoming updates, launch the game via the vanilla Cyberpunk launcher and untick "Enable Mods."
+
+⚠️ Set difficulty to Standard
+- The game is now balanced around this difficulty.
+
+⚠️ NEW GAME required if your save is from before 3.0.0,
+- Saves from 3.0.0 or later are safe to continue.
+
+---
+
+### Mod Updates, New Mods & Swaps
+
+#### Added
+
+- Nova LUT 4
+- Ogou KangTao
+- Kerry Tweaks
+- Pistol Pack 6
+- Smaller UI HUD
+- Chrome Plating
+- Climb Anywhere
+- Vault Anywhere
+- Into the Depths
+- RedIMGRetriever
+- Judy's New Look
+- Judy Reimagined
+- Be Hot Sex Shop
+- Yinglong KangTao
+- Shattered Chrome
+- Panam Reimagined
+- AMM Props - Gore
+- Step Up Anywhere
+- Sprint Toggle Fix
+- LNCLN KONTINENTAL
+- Johnny hairstyle3
+- BaXingChong KangTao
+- Anti-Theft Measures
+- Cyberpsycho Outbreak
+- Midnight Acquisition
+- Equipment Bonus Stat
+- Inventory Scroll Fix
+- Immersive Hit Sounds
+- Sensible Melee Range
+- False Encumbrance Fix
+- Salt In The Wound Fix
+- Immersive Shooting AI
+- DigitalVerse - FR AIO
+- More Low Level Weapons
+- Cyber Vehicle Overhaul
+- Undermine Quest Series
+- Weapon Quickhack System
+- Retrievable Weapon Mods
+- River Romanced Enhanced
+- Romance - Love Override
+- Attachments Unrestricted
+- Crunch Plaza Restoration
+- Melee Finisher Camera Fix
+- Panam Conversations Addon
+- Faction Attitudes Toggler
+- Second Heart Resurrect Fix
+- Sandevistan Activation Fix
+- Sandevistan Helper Utility
+- Preem Hair - Brunette Judy
+- Urban Garden Grocery Store
+- Blue Moon Romanced (Quest)
+- Vehicular Annoyances Patch
+- Vehicle Explosion Crash Fix
+- HK USP Tactical - ArchiveXL
+- re INPUT Mod Loader - v2.31
+- Attachments Crafting System
+- Enemies Melee Attacks Fixes
+- Gorilla Arms Force Open Fix
+- Spawned NPC Post Combat Fix
+- Happier Tower Ending (Judy)
+- Enemy Rarity Fixes Improved
+- Sandevistan - No Blue Filter
+- Eye In The Sky Highlight Fix
+- Carjacking Bug Fix game 2.3x
+- Meredith Stout Romance Addon
+- Health Bar Heal Animation Fix
+- Healing Item Instant Heal Fix
+- Judy's alternative appearance
+- Kerry Eurodyn New Appearances
+- shoo Watchdog - Timeout Crash
+- 8ug8ear Romance - Post Gig Fix
+- Dogtown Longshore vendor fixes
+- Crunch Plaza Restoration Addon
+- Extra Stats - Redscript Ultility
+- Bliss club Jigjig Street Changes
+- Environment Textures Overhaul 1K
+- Military Combat Pants - ArchiveXL
+- Harley Davidson Thundergod tweaks
+- Charge Jump Actually Charge Jumps
+- Military Combat Jacket - ArchiveXL
+- Universal Raytraced Player Shadows
+- Zenitex Assault Helmet - ArchiveXL
+- Standalone - Apollo Scout Tactical
+- AMM Props Library - For Other Mods
+- Vessnelle Johnny 4k complexion 2.0
+- Nissan 350Z v2 Custom Engine Sound
+- Messy H10 Apartment (World Builder)
+- Smaller UI HUD - Shorter Staminabar
+- Healing Item Stackable Regeneration
+- Cyber Vehicle Overhaul - DLC Bundle
+- Downtown Street Light Base Swap - QoL
+- Zenitex Turtleneck Jacket - ArchiveXL
+- BMW M3 E46 V2.31 Rework (RWD S54 3.2L)
+- Barghest Cyber Arms for Masc and Fem V
+- Enhanced Cyberware Capacity - redscript
+- FIX Cyberpunk 2077 for 2.3 Crash Repair
+- Zenitex Combat Plate Carrier - ArchiveXL
+- Hanako Hand Cyberware for Masc and Fem V
+- Anti-Theft Measures - French Translation
+- More Occluders (Performance Improvement)
+- Ray Traced Lighting Fixes - Elite Screens
+- Immersive Meditations - Unmarked Locations
+- Dexter DeShawn - E3 2019 Cinematic Trailer
+- Faction And District Combat Music Factions
+- Lucy Romanced (Immersive Edgerunner Quest)
+- Spicy Selfies - Judy Alvarez - a text addon
+- Time Dilation Overhaul - French Translation
+- Panam's Alternative Look Overhaul Body Only
+- Faction And District Combat Music Districts
+- Lucy Apartment Remastered 2025 collision fix
+- Make All Vehicles Unlockable - With TwinTone Fix
+- Happier Tower Ending (Judy) - French translation
+- Night City Detective - River Appearance Overhauls
+- Spicy Selfies - Judy Alvarez - French Translation
+- Keanu Silverhand - Alternative Appearance Overhaul
+- Northside Motel - Maelstrom Coding Cave and Ripper Den
+- Crunch Plaza Restoration RASTER RT FIX Bottom of Location
+- Eden Plaza Penthouse apartment - additionals interactions
+- Judy's alternative appearance- LizziesBDs Compatibility Fix
+- Enemy Rarity Fixes Improved Hp Tweaks - Gunsensical Reloaded
+- Us Cracks and Kerry Vanilla Questline Photomode Crash Fix (Patch)
+- Panam's Alternative Look Overhaul Body Only Lizzie Brain Dance FIX
+- Character Rendering Editor - Real-time Control on Skin Hair Eyes Shaders
+
+
+#### Updated
+
+- REDscope
+- Audi RSQ
+- Audioware
+- VendorsXL
+- RedLogger
+- BMW M3 E46
+- Toyota GT86
+- Limited HUD
+- Much Better AI
+- CyberVisionENV
+- Nissan 350Z V2
+- Honda CRX Mugen
+- NightlyNow Core
+- Virtual Atelier
+- Mazda MX-5 Miata
+- Hotscenes Add-on
+- DigitalVixen Core
+- True Night Vision
+- Pacifica Enhanced
+- Vehicle Resources
+- Explicit Dialogue
+- V Voice Framework
+- Nissan Silvia S15
+- Virtual Car Dealer
+- Tac Threads Atelier
+- MayoVirtual Atelier
+- TLS Virtual Atelier
+- Gunsensical Reloaded
+- Cyberpunk Ultra Skin
+- Gone in 2077 Seconds
+- Lizzie's Braindances
+- Deceptious Bug Fixes
+- Polyglot V Custom FR
+- Melee Attack Variety
+- Reinforcements System
+- Deceptious Quest Core
+- Tottes Atelier Shop 2
+- Tanishi T420 Creature
+- Ada Smasher Encounters
+- Butchers Of Night City
+- Judy Romanced Enhanced
+- Night City Optics Pack
+- Time Dilation Overhaul
+- Yusei's Virtual Atelier
+- Zenitex Core Dependency
+- Mitsubishi Lancer Evo 9
+- Photomode NPCs Extended
+- Judy Conversations Addon
+- Sanchez Virtual Boutique
+- Enzo Ferrari - ArchiveXL
+- KMKC's - Virtual Atelier
+- Polyglot V Custom NON FR
+- Ray Traced Lighting Fixes
+- Military Vest - ArchiveXL
+- Lamborghini Murcielago SV
+- Ugly Building Removed (E3)
+- Movement And Camera Tweaks
+- Immersive Night City Fixes
+- NC Fashion Virtual Atelier
+- KiasuBurger Cyberware Core
+- Romantic Hangout with So Mi
+- Night City Traffic Overhaul
+- Mikasa Aot Shirt Archive XL
+- 8ug8ear Romance Next Chapter
+- Reinforcements - Gang Vs Gang
+- Native Interactions Framework
+- Consistent And Rectified Lunge
+- Player Body Cyberware Injector
+- Custom Panam Pants - ArchiveXL
+- Deceptious Quest Core Utilities
+- Gunsensical Enemy Damage Scaling
+- Afterlife Unlocked and Remastered
+- De Tomaso Pantera GTS - ArchiveXL
+- Redscript Configuration Framework
+- Immersive Night City Fixes - CORE
+- DocWorks Quadra Type-66 'RedLine'
+- Cosmopolitan Night city Custom FR
+- Lizzie's Braindances Language Pack
+- Chevrolet Chevelle Super Sport 454
+- FlowerShop - Virtual Atelier Store
+- Faster Vehicle Knockback Animation
+- Tony's Shoe Store (Virtual Atelier)
+- dscript Configuration Framework - FR
+- Better Movement - QOL Jog and Sprint
+- Hyst Atelier Store - Virtual Atelier
+- Nola Dreamer Virtual Boutique Female
+- Cosmopolitan Night city Custom NON FR
+- Netwatch Cyber Arms for Masc and Fem V
+- Rebeccas Edgerunners Apartment DLC (FR)
+- Authentic Shift (QoL Gear Ratios Shifts
+- Go on a Date (Judy) - Side romance activity
+- Preem Fixes (PT Shadow Bug Fix and HD Textures)
+- Militech Regional Headquarters (Militech Tower)
+- Johnny Silverhand Cyber Arms for Masc and Fem V
+- The RVC00N Dumpster 1 - PinkyDude's Virtual Shop store
+- The RVC00N Dumpster 3 - PinkyDude's Virtual Shop store
+- The RVC00N Dumpster - OpenBack Tank Top (M) (Archive XL)
+- Shift (Dynamic Vehicle and Weapon Camera with Presets) new
+- Nova Optics (Vehicle Exposure Fix and Visuals Customization)
+- Takemura Hand Cyberware - Equippable with ArchiveXL for Masc and Fem V
+- High Grinders Boots for MascV (Vanilla - Atlas- Gymfiend) - Archive XL
+- Hotscenes - play Cyberpunk Joytoy sex scenes with your favorite characters
+- Inorganic skin for arms and legs for Masc and Fem v (compatible with my cyberware mods)
+
+
+#### Removed
+
+- BMW M1
+- Jaguar E Type
+- MMS from Judy
+- MMS from Alex
+- MMS from Panam
+- Claim Vehicles
+- Phone Extension
+- BMW M5 G90 2024
+- MMS from Jackie
+- Night City Alive
+- Cyber Skull Mask
+- Dark Future Core
+- Second Heart Fix
+- Lancia Stratos HF
+- Pacifica Apartment
+- Highest NPC AI lod,
+- 67 Chevrolet Impala
+- Meredith - redesign
+- MaxTac Vehicle Pack
+- Gomorrah Night Club
+- MMS from Mama Welles
+- HK UMP 45 - ArchiveXL
+- Crunch Plaza Expanded
+- Crowd E3 2018 Restored
+- More Climbable Objects
+- Agaou Reskin - Black V1
+- Order Reskin - Black V1
+- Yasha Reskin - Black V1
+- Vehicle Speed Unlimiter
+- Panam Body Enhanced 2.2
+- Death Race Vehicle Pack
+- Tube Dancers 4K Tattoos
+- Meredith Stout Makeover
+- Roller Coaster Expanded
+- Lizzie Reskin - Black V1
+- Emperor NCSO 720 Sheriff
+- Colt Python (.357 Magnum)
+- Rasetsu Reskin - Black V1
+- Pizdets Reskin - Black V1
+- Lucys Apartment - Reshape
+- Melee Animation Randomizer
+- Border Patrol Vehicle Pack
+- Regina's NCPD Headquarters
+- Honda NSX Type R NA1 hycade
+- Non-Canon Romances Enhanced
+- Fixed NPC Vehicle Reactions
+- Aston Martin V8 Vantage 1977
+- Faster Climbing and Vaulting
+- Prevention Unit Vehicle Pack
+- Widow Maker Reskin - Black V1
+- Gloria's House ( with Garage )
+- Judyheart Techie Look Replacer
+- Armor Up - Player Armor Rework
+- SPC Open roof double ladder fix
+- Dirty Burger Bar ( with Shops )
+- Vanilla Plus Parkour (movement)
+- DMC5 Nero's Revolver - Blue Rose
+- Shingen Mark V Reskin - Black V1
+- Disable Knockdown Animation (CET)
+- Comrade's Hammer Reskin - Black V1
+- Judy Enhanced Body with 4K Texture
+- Dark Matter Club ( with Apartment )
+- Better Movement - QOL Jog and Sprint
+- Japantown North Verticality Expanded
+- Cyber Den - apartment h10 - archivexl
+- BMW R NineT - Fully customizable bike
+- WalkingCrouching and Sprinting Tweaks
+- Judyheart - Judy Alvarez X Shadowheart
+- DogTown Stadium Unlocked and Remastered
+- Unique V Body Rig Framework - ArchiveXL
+- Pacifica Typhoon - Dogtown's Hidden Gems
+- Framework - Unique Judy Body Shape - Rig
+- Drive-In Theater ( Working Movie Screen )
+- Framework - Unique Panam Body Shape - Rig
+- Night city Aroused encounters assets FOMOD
+- Dogtown Nomad Hideout Apartment - ArchiveXL
+- Windswept - V hair blowing while driving bikes
+- SPC Open (Silver Pixel Cloud Drive-In Theater)
+- Armor Up - Player Armor Rework - FR Translation
+- Material and Texture Override (Crashes Resolved)
+- SPC TV Screen (Silver Pixel Cloud Drive-In Theater)
+- Corpo SUV 2.0 (Ragnar With NCPD Styled Running Text)
+- Dark Future - Urban Survival Gameplay - FR Translation
+- Rosa's Pose Pack - Casual Poses for Male Big Characters
+- Iconic Weapon Loadouts - David Martinez - FR Translation
+- Trash Begone (Optional Blowing Debris and Cockroach Removal)
+- More Alternate Clothes for Judy Enhanced Body and Vanilla Body
+- Pacifica Typhoon - Dogtown's Hidden Gems - Traduction Francaise
+- More Alternate Clothes for Panam Enhanced Body and Vanilla Body
+- Iconic Weapon Loadouts - David Martinez - The Kids Aren't Alright
+- Lucys Apartment - Reshape-Remaster Roof Improvement -AV-landing-fully-fixed-up
+
+
+--- @everyone
+
+⚠️ Check the **#infos channel** for updated settings & profiles.
+
+https://www.nexusmods.com/cyberpunk2077/mods/27691
+
+❤️ If you'd like to support my work, buy me a coffee.
+
+https://www.patreon.com/c/Neishin
+
+__________________________________________________________________________________________________
+
 ## [3.2.0] - Update @everyone
 
 ### General Changes
