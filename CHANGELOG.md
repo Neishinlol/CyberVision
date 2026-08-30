@@ -4,6 +4,25 @@ All notable changes to this project are documented in this file.
 For quick summaries, see Discord and Nexus.  
 This file serves as the main and complete source of truth.
 
+[3.3.0] - Hotfix@everyone
+General Changes
+
+#### Hotfix : 
+
+DLSS 5 Reshade fixed 
+Armor system reworked 
+Fix crash cuased by the Gang VS Gang 3.1.1 
+
+Grab it now 
+
+:warning: Check the ⁠inconnu channel for updated settings & profiles.
+
+https://www.nexusmods.com/cyberpunk2077/mods/27691
+
+:heart: If you'd like to support my work, buy me a coffee.
+
+_______________________________________________________________________________
+
 ## [3.3.0] - Update @everyone
 
 ### General Changes
