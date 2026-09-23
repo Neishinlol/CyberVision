@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://www.youtube.com/watch?v=4uQDSbVws0A">
-    <img src="https://img.youtube.com/vi/4uQDSbVws0A/maxresdefault.jpg" alt="CyberVision Footage from CV.06" width="700">
+    <img src="https://i.ibb.co/yc0M2P5r/thumbnail.jpg" alt="CyberVision video from CV.06" width="700">
   </a>
 </p>
 
