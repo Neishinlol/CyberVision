@@ -6,8 +6,6 @@
   </a>
 </p>
 
-# ![CyberVision](https://i.ibb.co/99DKNCwt/Cybervision.jpg)
-
 # CyberVision - Modern Realistic Modlist EN/FR
 
 [![Discord](https://img.shields.io/badge/Discord-Join%20Server-7289DA?logo=discord&logoColor=white)](https://discord.com/invite/WSFgf5S7wS) 
