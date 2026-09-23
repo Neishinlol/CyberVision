@@ -1,3 +1,11 @@
+<h1 align="center">CyberVision video from CV.06, thanks to you boss &lt;3</h1>
+
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=4uQDSbVws0A">
+    <img src="https://img.youtube.com/vi/4uQDSbVws0A/maxresdefault.jpg" alt="CyberVision Footage from CV.06" width="700">
+  </a>
+</p>
+
 # ![CyberVision](https://i.ibb.co/99DKNCwt/Cybervision.jpg)
 
 # CyberVision - Modern Realistic Modlist EN/FR
