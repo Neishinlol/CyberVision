@@ -4,6 +4,224 @@ All notable changes to this project are documented in this file.
 For quick summaries, see Discord and Nexus.  
 This file serves as the main and complete source of truth.
 
+
+
+## [3.4.0] - Update @everyone
+
+### General Changes
+
+
+#### DLSS 5 New settings :
+
+- New graphics set up,
+- NR Preset to Preset #2,
+- NR Style to Natural,
+- Overhaul Intensity to 1.50,
+- Global Tone Intensity to 1.00,
+- Local Tone Intensity to 1.20,
+- Structure Intensity to 1.50,
+- Character/Skin to -1.50,
+- Automatic / Character Mask ticked,
+- NR UI Correction Unticked,
+- HDR Color Bridge to 202,
+- Deph Convent to Use Game NGX Flag,
+- Motion Scale X to 1.000,
+- Motion Scale Y to 1.000,
+- Reshade have been tweaked arround this preset,
+- Check #infos for DLSS 5 installation instruction.
+
+
+#### Fixes, tweaks, QOL : 
+
+- Less CPU usage,
+- Less Stuttering,
+- Fixed crashs in PL,
+- Fix crashs scanning some NPC's,
+- Remove DOT health using Sandevistan,
+- Better performance overhaul about 10 %,
+- Fix some door locked when its shouldn't,
+- Fixed crash fighting some dedicated enemies,
+- Converting all radio mods to work with ARF, base mods converted are still in the collection waiting mod author to do it themselves.
+
+
+### Important
+
+⚠️ READ THE #INFOS CHANNEL ON DISCORD
+- Reorganized, with plenty of new information to read.
+
+⚠️ GAME CRASHES AFTER LOADING A SAVE OR STARTING FRESH FOLLOWING ANY UPDATE OR INSTALLATION OF THE MODLIST
+- Before creating your character, load a random save first and restart the game.
+
+⚠️ DISABLE REDMOD
+- Launch the game via the vanilla Cyberpunk launcher and untick "Enable Mods.
+
+⚠️ Set difficulty to Standard
+- The game is now balanced around this difficulty.
+
+⚠️ NEW GAME required if your save is from before 3.0.0,
+- Saves from 3.0.0 or later are safe to continue.
+
+---
+
+### Mod Updates, New Mods & Swaps
+
+#### Added
+
+- Nova LUT 4 DLSS 5
+- Finisher Overhaul
+- 4K Complexions for Male V
+- Lucy Romanced (Immersive Edgerunner Quest)
+- AudioWare Radio Framework
+- Alternative Skin Material
+- Toyota Celica Supra A60 - ArchiveXL
+- Toyota Celica Supra A60 - ArchiveXL Tuning Parts
+- Cyberware Dismantling
+- Obliterate Dismemberment Fix
+- Cyber Ads
+- Realistic Advertisement Additions
+- Enemy Melee Moves Unlocked
+- Mantis Blades Aerial Takedown Fix
+- Gorilla Arms Aerial Takedown Fix
+- Melee Enemy Swarm
+- Input Loader
+- Lllyric FM ARF
+- COMB4T Radio ARF
+- Violent Vira Radio ARF
+- Radio PhonkStreet ARF
+- RadioExt THE CVLT ARF
+- 666.6 The Dark Ages ARF
+- Ms. Miku Radio Station ARF
+- Radio SLOWEDandREVERBv2 ARF
+- RadioExt 106.1 ULTRA VIOLENCE ARF
+- Radio Russian Street MusicV2 ARF
+- 20.77 NightmareOwl Radio (RadioExt) ARF
+- You Look Lonely ARF
+- Outrun Waves 93.7 A Synthwave Radio ARF
+
+
+#### Updated
+
+- Shift (Dynamic Vehicle and Weapon Camera with Presets)
+- Redscript Configuration Framework - FR
+- Immersive Night City Fixes
+- Immersive Hit Sounds
+- NightlyNow Core
+- Gunsensical Reloaded
+- Nova Optics (Vehicle Exposure Fix and Visuals Customization)
+- NightlyNow Core - French Translation
+- Blur Begone (Clear Materials with Refraction)
+- Spawned NPC Post Combat Fix
+- Reinforcements - Gang Vs Gang
+- The RVC00N Dumpster 3 - PinkyDude's Virtual Shop store
+- Native Interactions Framework
+- Meredith Stout Romance Addon
+- Us Cracks and Kerry Vanilla Questline Photomode Crash Fix (Patch)
+- Much Better AI
+- Lizzie's Braindances Native Interaction
+- CyberVisionENV
+- Kitsch Cyber Arms for Masc and Fem V
+- Night City Optics Pack
+- Sexual Encounters - Pleasures of Night City
+- Netwatch Cyber Arms for Masc and Fem V
+- ArchiveXL
+- AVANTE - Afficianado Suit - ArchiveXL
+- FV's Shoes for MascV - ArchiveXL
+- Avante Fashionwear - Virtual Atelier
+- Busy Vampire Stash - Virtual Atelier
+- Daily Style Wear - Male Only
+- Novawear Pants - Fem Masc V (ArchiveXL)
+- Hudson Outfit
+- Simple Formal Suit-PM
+- Casual Fall Outfit PM
+- Cushy Long Sleeve Top-PM
+- Unzipped Collared Shirt-PM
+- Psychomercs Apparel Atelier
+- DS2 Jacket Bodysuit and Necklace Archive XL
+- The RVC00N Dumpster - Denim Edgerunner Set (M-F) (GS) (AXL)
+- Military Combat Jacket - ArchiveXL
+- ZXR - Alpha Redfield Outfit
+- Rent a Motel
+- Model 003 Cyber Arms for Masc and Fem V
+- Immersive Meditations - Unmarked Locations
+- True Night Vision
+- Messy H10 Apartment (World Builder)
+- E-Suture - Virtual Atelier
+- Sleeves
+- Apartment Cats - The Glen
+- Apartment Cats - Japantown
+- Pet Your Cat
+- Apartment Cats - Corpo Plaza
+- Panam Conversations Addon
+- Apartment Cats - Northside Motel
+- Apartment Cats - Dogtown
+- Immersive Shooting AI
+- Time Dilation Overhaul
+- Anti-Theft Measures - French Translation
+- Anti-Theft Measures
+- DigitalVerse - FR AIO
+- 8ug8ear Romance Next Chapter
+- Computer Anywhere
+- 3D World Map Fixed
+- Sanchez Virtual Boutique
+- Adaptive Sliders
+- Explicit Dialogue
+- FlowerShop - Virtual Atelier Store
+- Immersive Explosions
+- Arasaka Ninja Mask - ArchiveXL - Customizable
+- Manavortex Atelier Store
+- Stiletto Platform Heels - Archive XL
+- Vehicle Resources
+- The Nullifier
+- Deceptious Bug Fixes
+- NC Fashion Virtual Atelier
+- Night City Talk Radio
+- Lizzie's Braindances
+- No-Tell Motel Upper Floors Unlocked
+- Alex Romanced
+- Codeware
+- NPC Actions Stutter Fix
+- Redscript Configuration Framework
+- RedFunctions
+- Dusty Virtual Atelier
+- Tony's Shoe Store (Virtual Atelier)
+- Yusei's Virtual Atelier
+- Johnny Silverhand Cyber Arms for Masc and Fem V
+- KiasuBurger Cyberware Core
+- Environment Textures Overhaul ( 16GB Vram )
+- Environment Textures Overhaul 1K
+- Lizzie's Braindances Language Pack
+- RedLogger
+- DigitalVixen Core
+
+
+#### Removed
+
+- RadioExt
+- Awesome 80s
+- I Love Adverts
+- Further Félonies
+- Lore Friendly Neon Signs
+- Autodrive Alternate Pose
+- Exclusively Daft Punk Radio
+- Enemy Rarity Fixes Improved
+- 4x Vending Machine Framework
+- Devil May Cry 5 Radio - Body Heat Radio Replacer
+- 4x Vending Machines (individual file version added)
+- Enemy Rarity Fixes Improved Hp Tweaks - Gunsensical Reloaded
+
+
+--- @everyone
+
+⚠️ Check the **#infos channel** for updated settings & profiles.
+
+https://www.nexusmods.com/cyberpunk2077/mods/27691
+
+❤️ If you'd like to support my work, buy me a coffee.
+
+https://www.patreon.com/c/Neishin
+
+______________________________________________________________________________
+
 [3.3.0] - Hotfix@everyone
 General Changes
 
