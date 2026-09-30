@@ -6,6 +6,324 @@ This file serves as the main and complete source of truth.
 
 
 
+
+## [3.5.0] - Update @everyone
+
+
+### General Changes
+
+
+#### DLSS 5 Plug and play : 
+
+⚠️ You need to delete your Bin folder from your CP77 Installation.
+- Cyberpunk2077/bin, after that verify your files though steam to download a clean bin again.
+
+- DLSS 5 set up come in his last version directly into mod organizer,
+- Editing base folder files from Cyberpunk2077 are not required anymore,
+- Read #infos channel to see how to enable / disable it ( Disabled by default).
+
+
+#### Fixes, tweaks, Performances improvement :
+
+**Method**
+- Profiled the full list with **RedProfiler** (per-mod script cost, spikes, Lua memory)
+- Same test route every time: Misty & Vik market → Watson → Lizzie's Bar → Medical Center → back, walking + driving at full speed
+- 12 captures, one change at a time, each compared to the previous one
+
+**Final results (first capture → final capture)**
+- Stutters > 25 ms: **31.3 → 3.9 per min (−88%)**
+- Big stutters > 33 ms: **12.2 → 1.5 per min (−88%)**
+- Freezes > 50 ms: **2.3 per min → 0**
+- CET memory freezes: **8 per min → 0**
+- Worst frame: **84 ms → 37 ms**
+- Frames at a locked 60 fps: **43% → 66%**
+- Average FPS: **56.1 → 59.0**
+- CET Lua memory: **sawtooth 49–75 MB → stable 35–38 MB**
+- CET main-thread cost: **~1.6 → ~0.9 ms per frame**
+
+##### Removing the worst offenders
+
+- **Inventory Zoom**: ran 18×/frame even while driving, 13% of all Lua garbage → removed
+- **Preem Scoots**: scooter scheduler, script spikes up to 119 ms while driving → removed
+- **Explicit Dialogue**: ~80 ms spike on every scene load → removed
+- **Go on a Date (Panam + Judy)**: polled every frame even outside dates → removed
+- **Licks Club**: jukebox polled every frame → removed
+- **Immersive Meditations** (+ 0-Engine patch) → removed
+- Big stutters: 12.2 → 3.9/min · CET memory stutters: 8 → 2.4/min · worst script spike: 418 → 147 ms · Lua garbage: 2.6 → 1.8 MB/s
+
+##### CyberVision GC Smoother (new mod)
+
+- CET's Lua garbage collector cleared ~20 MB at once every ~10 s → ~20 ms freeze each time
+- GC Smoother spreads that work across every frame in small steps
+- CET memory stutters: 2.4 → **0/min** · Lua memory: 45–75 MB sawtooth → stable ~37 MB · cost: ~0.3 ms/frame
+- A v2 (clean only when memory grows) was tested and rejected: it brought the freezes back
+
+##### 0-Engine removed 
+
+- 0-Engine's main-thread cost kept growing during a session: **110 → 830 µs/frame**
+- Only Rent a Motel still used it
+- **0-Engine** → removed · **Rent a Motel**: 0-Engine version → **classic version**
+- CET main-thread cost: 1.6 → **0.9 ms/frame** · stutters > 25 ms: 12.6 → **3.9/min** · worst frame: 102 → **37 ms**
+
+##### Settings changed :
+
+- **NSGDD**: Exclude interiors OFF → **ON**
+- **The Nullifier**: Kill Triggers & World Boundaries ON → **OFF**
+- **Auto Weather Scheduler**: re-enabled (no longer causes freezes with GC Smoother)
+
+> Note: the remaining ~4 stutters/min happen when city sectors stream in while driving. That's the engine itself, not scripts.
+
+##### CyberVision GC Smoother
+
+- Spreads Cyber Engine Tweaks' Lua garbage collection across every frame in small steps, instead of letting memory pile up and clearing it all at once. This removes the ~20 ms freeze that used to hit every 10 seconds or so.
+
+**Default settings**
+- Factor: 2.0 (GC work per frame = 2× memory allocated since the last frame)
+- Max step: 256 KB
+- Pause: 100 (a new cycle starts as soon as the previous one ends)
+- Settings are adjustable in the CET overlay (window "GC Smoother"). Unchecking "Active" restores Lua's default behaviour instantly.
+
+##### CET / R6 performance patches
+
+**Shift**
+- Player action observer (~20 calls/frame): action name read 2× → **1×**, exits early on unused actions
+- Mouse axes: processed every frame → **only during free-look**
+- "Is this vehicle a bike?": asked on every turn action → **cached per vehicle** (~10,000 → ~130 calls in testing)
+- Setting "Throttle Updates": OFF → **ON**
+**Native Interactions**
+- Map icon observer: 3 game calls per icon update → **0 when no NIF pin exists**
+- Apartment checks (quest facts + journal lookups): every frame → **10×/sec**
+- Player fetched 2× → **1× per frame**
+**Rent a Motel**
+- All 5 motels scanned 5×/sec from anywhere → **skipped beyond 200 m**
+**Weather Switcher**
+- Requests handler fetched 3× → **1× per frame**
+- Weather state read every frame → **4×/sec**
+**Car Mod Shop**
+- Vehicle + display name queried every frame while driving anywhere → **only inside shop zones**
+- Shop zone check 3× → **1× per frame**
+**Auto Weather Scheduler**
+- Every frame: ~8 game calls, a new Lua closure, and the weather list rebuilt + re-sorted → checked **4×/sec** (the schedule runs in game hours)
+- **57 → 5 µs/frame (−91%)** · Lua garbage 0.23 MB/s → ~0
+**TDO**
+- CET observer called on every player action (~20×/frame) just to catch steering input → **moved to Redscript**
+- **94 → 34 µs/frame (−64%)** · no more Lua garbage from TDO
+**Render Plane Fix**
+- On every player reassemble (weapon / gear swap): component type checked in one lookup, names read once, patch decision cached per name
+- Worst case per swap: **5.2 → 1.4 ms (−73%)** · average 1.5 → 1.1 ms
+**Reinforcements System**
+- Restricted-area check sorted every zone's corners (12 atan) on every call → bounding-box early exit first
+- **57 → 24 µs/frame (−58%)**, same result
+**The Nullifier**
+- Scanned every object of every loaded sector even with Kill Triggers & World Boundaries OFF → skipped when both are off, only trigger nodes are cast
+- **26 → 21 µs/frame (−18%)**
+**Damage Scaling and Balance**
+- Asked CET for every setting on every hit (5-8 Redscript → Lua calls per bullet) → settings **cached in Redscript**, refreshed every 2 s
+- Now ~5 ms of total cost over a full 4-minute combat capture
+**Faction & District Combat Music**
+- Boss / quest-scene check runs every 2 s only while a custom track plays · negligible cost (~3 ms per capture)
+
+- Lua allocation: 36.6 → 32.0 KB/frame (−13%)
+
+
+#### Gameplay Changes : 
+
+##### Overhaul difficulty : 
+
+- Standard is the way to go for balance, fun and challenging experience,
+- Very Hard is the way to go if you want real challenge but still playable and balanced.
+
+##### Gunsensical :
+
+**Removed (Gunsensical → Vanilla)**
+- NPC weapon DPS: 92 records → vanilla
+- NPC damage per hit: 1 record → vanilla
+- Weapon DPS: 92 records → vanilla
+- Weapon damage per hit: 62 records → vanilla
+- Headshot multipliers: 65 records → vanilla
+- Charged shot multiplier: 3 records → vanilla
+- Stealth damage: 2 records → vanilla
+- Effective DPS: 1 record → vanilla
+- Weapon-type DPS / NPC damage multipliers: 6 records → vanilla
+
+##### Immersive Shooting AI
+
+**Distance falloff (distance at which the penalty scales)**
+- SMG: 45 m → **36 m**
+- Shotgun / Dual shotgun: 30 m → **24 m**
+- Handgun / Revolver: 40 m → **32 m**
+- Precision rifle: 40 m → **32 m**
+- LMG / HMG: 45 m → **36 m**
+- Assault rifle: 45 m → **36 m**
+- Sniper: penalty under 16 m, never negative → penalty under **20 m**, up to **+20%** bonus at long range
+- Sniper hit chance cap: 1.0 → **1.2**
+
+**Cover (snipers & precision rifles)**
+- 0.9 if you peek / 0.35 if hidden → **flat 0.75**
+
+**Vehicles**
+- Car: 1.0 − speed × 0.92 → **0.9 − speed × 0.96 × 0.9**
+- Bike: 1.0 − speed × 0.6 → **0.95 − speed × 0.8 × 0.95**
+
+**Panic penalty (new)**
+- Under 4 m: +50% movement penalty · 4–8 m: +30%, reduced by enemy skill (weak enemies panic, elites barely, bosses never)
+
+**Shot delay distance bands**
+- 5 / 10 / 20 / 30 / 40 m → **4 / 8 / 16 / 24 / 32 m**
+
+**In-game settings (default → CyberVision)**
+- Accuracy 1.0 → 0.8 · Blind accuracy 0.08 → 0.08 · Smart miss 25% → 50% · Damage 1.0 → 0.9 · Recoil Dampeners ON → OFF
+
+##### Armor UP 
+
+- Mode: Arcade preset → **Custom (advanced settings ON)**
+
+**General**
+- Shield function: All damage → All damage
+- Shield repair: Out of combat → **Always
+- Ripperdoc repair cost: 20 → 20
+- Shield repair rate: 6 → **2**
+- Shield from armor: 200 → **50**
+- Vanilla armor scale: 1.50 → **0.40**
+- Shield affects vanilla armor: OFF → OFF
+- Show shield as %: OFF → OFF
+
+##### Much better AI 
+
+- Marksmanship module: ON → **OFF** (ISAI handles all hit decisions)
+- Enemy Abilities module: ON → **OFF**
+
+
+##### Cyber Enemies 
+
+- Poison Tank Disabled,
+- Flame Armor Disabled,
+- Electric Plating Disabled,
+- Frost Bullets Disabled.
+
+##### Faction and District Combat Music
+
+- Fixed overlap music with vanilla ones.
+- No custom musics during story events,
+- No custom musics during proper boss fights,
+- No custom musics during Flashbacks.
+
+
+### Important
+
+⚠️ READ THE #INFOS CHANNEL ON DISCORD
+- Reorganized, with plenty of new information to read.
+
+⚠️ DISABLE REDMOD
+- Launch the game via the vanilla Cyberpunk launcher and untick "Enable Mods.
+
+⚠️ NEW GAME required if your save is from before 3.0.0,
+- Saves from 3.0.0 or later are safe to continue.
+
+---
+
+### Mod Updates, New Mods & Swaps
+
+#### Added
+
+- CyberVision DLSS 5 RTX 4000 & 3000
+- CyberVision DLSS 5 Core
+- CyberVision Shift
+- CyberVision GCSmoother
+- CyberVision Native Interaction Framework
+- CyberVision Rent a Motel
+- CyberVision Weather Switcher
+- CyberVision Car Mod Shop
+- CyberVision Auto Weather Scheduler
+- CyberVision Render Plane Fix
+- Cyberware Dismantling
+- CyberVision Time Dilatation Overhaul
+- CyberVision Damage Scaling Rebalanace
+- CyberVision Immersive Shooting AI
+- CyberVision Reinforcement System
+- CyberVision The Nullifier
+- CyberVision Gunsensical
+- CyberVision Music Faction And District
+- Melee Enemy Swarm
+- Damage Scaling and Balance (Formerly Level Scaling)
+- Character Creator UI Improvements
+- Machete Finisher Kill Fix
+- Photomode UI Improvements
+- Loud Noises Fix - Audio Pool Fix
+- Toyota Celica Supra A60 - ArchiveXL
+
+
+#### Updated
+
+- Better Flashlight
+- Faction And District Combat Music Districts
+- Yusei's Virtual Atelier
+- Faction And District Combat Music Districts
+- Faction And District Combat Music Factions
+- Blur Begone (Clear Materials with Refraction)
+- Quickhack Fixes
+- Lamborghini Murcielago SV
+- Blur Begone (Clear Materials with Refraction)
+- Ducati 916
+- Gunsensical Reloaded
+- Nissan 350Z V2 Tuning parts
+- Nissan Skyline R34 V-Spec II - Tuning parts
+- Nissan 350Z V2
+- Nissan Skyline R34 V-Spec II - ArchiveXL
+- Honda CRX Mugen
+- Chevrolet Camaro SS JL4
+- Nissan Silvia S15
+- Top Secret V12 Supra
+- Mazda MX-5 Miata
+- Mitsubishi Lancer Evo 9
+- Toyota GT86
+- Nissan Skyline R32
+- Nissan Skyline R33
+- Nissan Skyline R31 Archive XLTuning parts
+- Nissan Skyline R31 GTS-R - ArchiveXL
+- AK Pack
+- DigitalVixen Core
+- Inorganic skin for arms and legs
+- Rent a Motel
+- Lizzie's Braindances Language Pack
+- Input Loader
+- Dogtown Airship ( with Apartment and NPC Party Below )
+- Murkman Cave ( BATMAN )
+- Dogtown Car Meet ( with Apartment )
+- Downtown Yacht
+- Redscript Configuration Framework
+- Immersive Night City Fixes
+- Lizzie's Braindances
+- The Nullifier
+
+
+#### Removed
+
+- REDscope
+- 0-Engine
+- Inventory Zoom
+- Preem Scoots
+- Licks Club
+- Law Enforcement Overhaul
+- Law Enforcement Overhaul Reset (Spawn Compatibility - MaxTac Rebalanced - Fleet Expansion)
+- Immersive Meditations - Unmarked Locations
+- 0 - Engine Immersive Meditations - Unmarked Locations
+- Explicit Dialogue
+- Go on a Date (Judy) - Side romance activity
+- Go on a Date (Panam) - Side romance activity
+
+--- @everyone
+
+⚠️ Check the **#infos channel** for updated settings & profiles.
+
+https://www.nexusmods.com/cyberpunk2077/mods/27691
+
+❤️ If you'd like to support my work, buy me a coffee.
+
+https://www.patreon.com/c/Neishin
+
+___________________________________________________________________________________________
+
 ## [3.4.0] - Update @everyone
 
 ### General Changes
