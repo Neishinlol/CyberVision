@@ -6,6 +6,160 @@ This file serves as the main and complete source of truth.
 
 
 
+## [3.6.0] - Update @everyone
+
+
+### General Changes
+
+
+#### DLSS 5, Graphics and ReShade Setup:
+
+- New instructions in #infos regarding DLSS 5,
+- New main menu and thumbnail (thanks to Sonnette & Kilo),
+- Fixed ReShade not applying for some people,
+- Fixed the ReShade Cinematic preset,
+- RenoDX now works with any ReShade and has been configured for each preset,
+- There are now 4 ReShade mods, using 2 ReShade presets each,
+- CyberVision ReShade: basic version for non-HDR and non-DLSS 5 setups,
+- CyberVision ReShade HDR: HDR ReShades for non-basic and non-DLSS 5 setups,
+- CyberVision ReShade DLSS 5: for non-basic, non-HDR DLSS 5 setups,
+- CyberVision ReShade DLSS 5 HDR: for non-basic, HDR and DLSS 5 setups,
+- DLSS 5 and the ReShades are now perfectly balanced for stunning visuals with no visual artifacts, and work perfectly in both Single Pass and Double Pass.
+
+
+#### Fixes, Tweaks & Performance Improvements:
+
+- Scripts / Lua / RED are now 100% stable,
+- No stuttering caused by scripts anymore,
+- ArchiveXL and CoreThread workloads have been reduced,
+- Car distribution and custom hair colors were the main causes of CoreThread stuttering and have now been addressed.
+
+
+#### Gameplay Changes:
+
+- Dark Future is back, tweaked to remain present without being too restrictive,
+- No more separate car distribution system,
+- Car distribution and gang features are now handled by Night City Alive,
+- Added a patch for the Dark Future HUD to match Limited HUD,
+- Added a patch for Night City Alive to prevent crashes when reloading,
+- Faction and District music mods will now not start if your Pocket Radio is turned on.
+
+
+### Important
+
+⚠️ Your hair color is probably broken.
+- Go to a ripperdoc and change your hair color.
+
+⚠️ READ THE #INFOS CHANNEL ON DISCORD
+- It has been reorganized and now contains plenty of new information to read.
+
+⚠️ DISABLE REDMOD
+- Launch the game through the vanilla Cyberpunk launcher and untick "Enable Mods".
+
+⚠️ NEW GAME required if your save is from before 3.0.0.
+- Saves from 3.0.0 or later are safe to continue.
+
+---
+
+
+### Mod Updates, New Mods & Swaps
+
+
+#### Added
+
+- CyberVision Reshade HDR
+- CyberVision Reshade DLSS 5 HDR
+- NIGHT CITY ALIVE
+- CyberVision Night City Alive
+- AudioXL
+- The Grid (Custom Street Light Hours
+- Enemy Quickhack Fixes
+- 8ug8ear Romance - ALL LANGUAGES
+- David Martinez Jacket Refited for Hyst Bodies mods
+- Midnight Acquisition Claim Vehicle
+- Spawned NPC Post Combat Fix Night city Alive Patch
+- Melee Attack Speed Cap Fix
+- Dark Future - Urban Survival Gameplay
+- CyberVision Dark Future
+- Lizzie's Braindances Dark Future
+- Dark Future - Urban Survival Gameplay - FR Translation
+- Immersive Meditations - Hidden Locations Quest
+- DigitalVerse - FR AIO
+- Traffic Lights Behavior Overhaul (TLBO)
+
+
+#### Updated
+
+- CyberVision Reshade DLSS 5
+- KiasuBurger Cyberware Core
+- Inorganic skin for arms and legs
+- Player Body Cyberware Injector
+- Barghest Cyber Arms for Masc and Fem V
+- Night City Interactions - Core (FR)
+- Hangout Romances (FR)
+- Deceptious Quest Core - FR
+- Always First Equip
+- Arasaka Estate Mansion
+- Melee Weapon Pack 2
+- Spawned NPC Post Combat Fix
+- Tony's Shoe Store (Virtual Atelier)
+- Lizzie's Braindances
+- Immersive Night City Fixes
+- AK Pack
+- Jinx Top Archive XL
+- Beachwear Suit Archive XL
+- XRX Leotard 2024 Archive XL
+- XRX Tactical Shorts Archive XL
+- Arasaka Bodysuit Archive XL
+- XRX Tactical Leotard Archive XL
+- Arasaka Sportswear Archive XL
+- XRX Asymmetric Top Archive XL
+- XRX Beachwear 2024 Archive XL
+- Kitsch Cyber Legs for Masc and Fem V
+- Voodoo Tank for Masc V - Archive XL
+- Sessanta Nove Beachwear 2024 Archive XL
+- DBRV - EDGERUNNERS - Rebecca's Jacket and Underwear
+- Psychomercs Apparel Atelier
+- Sanchez Virtual Boutique
+- Nulled Angle Correction
+- Judy Conversations Addon
+- XRX LED Leotard Archive XL
+- Redscript Configuration Framework - FR
+- Anti-Theft Measures - French Translation
+- Time Dilation Overhaul - French Translation
+- Hotscenes - play Cyberpunk Joytoy
+- TLS Virtual Atelier
+
+
+#### Removed
+
+- Yaiba Muramasa Edits
+- Yaiba Kusanagi Overhaul
+- Consumable Animations
+- Hair Color Profiles CCXL
+- Multi's Hair Colors CCXL
+- Faction Attitudes Toggler
+- LIGHTRITUAL - CCXL Hair Colors
+- Rebel Spectrum - CCXL Hair Colors
+- Immersive NPC Variety - Valentino women
+- FIX Cyberpunk 2077 for 2.3 Crash Repair
+- Au Naturale - Naturalish CCXL Hair Colors
+- Night City Traffic Overhaul CyberVision Edit Edition
+- Car Distribution - Citizen - Gangs - Utility - Police - CyberVision Edition
+
+--- @everyone
+
+⚠️ Check the **#infos channel** for updated settings & profiles.
+
+https://www.nexusmods.com/cyberpunk2077/mods/27691
+
+❤️ If you'd like to support my work, buy me a coffee.
+
+https://www.patreon.com/c/Neishin
+
+
+__________________________________________________________________________________________
+
 
 ## [3.5.0] - Update @everyone
 
