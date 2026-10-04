@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://i.ibb.co/C3ZkTJc6/Vision-cyberpunk-dans-la-m-galopole-neon.png" alt="CyberVision" width="100%">
+</p>
+
 <h1 align="center">CyberVision video from CV.06, thanks to you boss &lt;3</h1>
 
 <p align="center">
