@@ -22,24 +22,24 @@
     "links": {
       "image": "https://i.ibb.co/C3ZkTJc6/Vision-cyberpunk-dans-la-m-galopole-neon.png",
       "readme": "https://github.com/Neishinlol/CyberVision/blob/main/README.md",
-      "download": "https://authored-files.wabbajack.org/CyberVision.wabbajack_182579c7-fad8-433f-9a01-aeca4d66ce06",
+      "download": "https://authored-files.wabbajack.org/CyberVision.wabbajack_8eed5792-0d94-4e81-b91e-9b07cbc34693",
       "machineURL": "NeishinCyberVision",
       "discordURL": "https://discord.com/invite/WSFgf5S7wS",
       "websiteURL": "https://www.nexusmods.com/cyberpunk2077/mods/27691",
       "nexusCollection": null
     },
     "download_metadata": {
-      "Hash": "3vO+hLyFltg=",
-      "Size": 16639467,
-      "NumberOfArchives": 1909,
-      "SizeOfArchives": 85553568660,
-      "NumberOfInstalledFiles": 16024,
-      "SizeOfInstalledFiles": 81597943391,
-      "TotalSize": 167151512051
+      "Hash": "BdA2001lcIE=",
+      "Size": 18724938,
+      "NumberOfArchives": 1913,
+      "SizeOfArchives": 85612540977,
+      "NumberOfInstalledFiles": 16181,
+      "SizeOfInstalledFiles": 81695127564,
+      "TotalSize": 167307668541
     },
-    "version": "3.5.0",
+    "version": "3.6.0",
     "dateCreated": "1970-01-01T00:00:00Z",
-    "dateUpdated": "2026-09-30T19:55:29.0692662Z",
+    "dateUpdated": "2026-10-04T16:53:39.1218754Z",
     "repositoryName": ""
   }
 ]
