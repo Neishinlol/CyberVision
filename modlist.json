@@ -18,9 +18,9 @@
     "utility_list": false,
     "image_contains_title": true,
     "DisplayVersionOnlyInInstallerView": false,
-    "force_down": false,
+    "force_down": true,
     "links": {
-      "image": "https://i.ibb.co/C3ZkTJc6/Vision-cyberpunk-dans-la-m-galopole-neon.png",
+      "image": "https://i.ibb.co/fGVt4gX0/Mise-jour-cyberpunk-en-n-ons-rugissants.png",
       "readme": "https://github.com/Neishinlol/CyberVision/blob/main/README.md",
       "download": "https://authored-files.wabbajack.org/CyberVision.wabbajack_8eed5792-0d94-4e81-b91e-9b07cbc34693",
       "machineURL": "NeishinCyberVision",
